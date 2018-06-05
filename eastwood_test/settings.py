@@ -37,8 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'employees',
+    'bootstrap3',
     'phone_field',
+    'employees',
 ]
 
 MIDDLEWARE = [
