@@ -1,0 +1,6 @@
+<h2>Сотрудники компании</h2>
+<ul>
+    {% for employee in object_list %}
+        <li>{{ employee.last_name }}</li>
+    {% endfor %}
+</ul>
