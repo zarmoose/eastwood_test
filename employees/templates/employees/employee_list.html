@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}
+    <title>База сотрудников компании</title>
+{% endblock %}
+
+{% block content %}
+    <h2>Сотрудники компании</h2>
+    <ul>
+        {% for employee in object_list %}
+            <li>{{ employee.display_last_name }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
+

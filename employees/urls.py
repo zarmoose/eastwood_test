@@ -1,6 +1,6 @@
-from django.conf.urls import url
+from django.urls import path
 from employees.views import EmployeeList
 
 urlpatterns = [
-    url('^$', EmployeeList.as_view())
+    path('', EmployeeList.as_view(), name='index')
 ]
