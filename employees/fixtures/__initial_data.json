@@ -1,0 +1,4802 @@
+[
+    {
+        "model": "employees.employee",
+        "pk": 1,
+        "fields": {
+            "first_name": "\u041d\u0435\u043b\u0438\u0434\u043e\u0432",
+            "middle_name": "\u0422\u0438\u043c\u0443\u0440\u043e\u0432\u0438\u0447",
+            "last_name": "\u041d\u0435\u043b\u0438\u0434\u043e\u0432",
+            "birthday": "1960-05-28",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 2,
+        "fields": {
+            "first_name": "\u041e\u0431\u043e\u043b\u0435\u043d\u0441\u043a\u0438\u0439",
+            "middle_name": "\u0413\u0435\u043d\u0440\u0438\u0445\u043e\u0432\u0438\u0447",
+            "last_name": "\u041e\u0431\u043e\u043b\u0435\u043d\u0441\u043a\u0438\u0439",
+            "birthday": "1990-03-14",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 3,
+        "fields": {
+            "first_name": "\u0410\u043d\u0442\u0438\u043f\u0438\u043d",
+            "middle_name": "\u041a\u0438\u0440\u0438\u043b\u043b\u043e\u0432\u0438\u0447",
+            "last_name": "\u0410\u043d\u0442\u0438\u043f\u0438\u043d",
+            "birthday": "1996-05-25",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 4,
+        "fields": {
+            "first_name": "\u0410\u043c\u0438\u0440\u0435\u0434\u0436\u0438\u0431\u043e\u0432",
+            "middle_name": "\u0418\u043b\u0430\u0440\u0438\u0435\u0432\u0438\u0447",
+            "last_name": "\u0410\u043c\u0438\u0440\u0435\u0434\u0436\u0438\u0431\u043e\u0432",
+            "birthday": "1970-07-16",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 5,
+        "fields": {
+            "first_name": "\u041d\u0435\u043c\u0438\u0440\u043e\u0432\u0438\u0447",
+            "middle_name": "\u0410\u043a\u0430\u043a\u0438\u0435\u0432\u0438\u0447",
+            "last_name": "\u041d\u0435\u043c\u0438\u0440\u043e\u0432\u0438\u0447",
+            "birthday": "1961-08-04",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 6,
+        "fields": {
+            "first_name": "\u0410\u0432\u0435\u0440\u043a\u0438\u0435\u0432",
+            "middle_name": "\u0415\u0433\u043e\u0440\u044c\u0435\u0432\u0438\u0447",
+            "last_name": "\u0410\u0432\u0435\u0440\u043a\u0438\u0435\u0432",
+            "birthday": "1999-11-16",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 7,
+        "fields": {
+            "first_name": "\u0427\u0435\u0440\u043d\u044b\u0448\u0451\u0432",
+            "middle_name": "\u041b\u0430\u0432\u0440\u043e\u0432\u0438\u0447",
+            "last_name": "\u0427\u0435\u0440\u043d\u044b\u0448\u0451\u0432",
+            "birthday": "1992-07-10",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 8,
+        "fields": {
+            "first_name": "\u041f\u043e\u043d\u043e\u043c\u0430\u0440\u0435\u043d\u043a\u043e",
+            "middle_name": "\u0412\u0443\u043a\u043e\u043b\u043e\u0432\u0438\u0447",
+            "last_name": "\u041f\u043e\u043d\u043e\u043c\u0430\u0440\u0435\u043d\u043a\u043e",
+            "birthday": "1985-08-21",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 9,
+        "fields": {
+            "first_name": "\u0421\u043a\u043e\u043f\u0438\u043d",
+            "middle_name": "\u041b\u0435\u043e\u043d\u0442\u044c\u0435\u0432\u0438\u0447",
+            "last_name": "\u0421\u043a\u043e\u043f\u0438\u043d",
+            "birthday": "1992-05-26",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 10,
+        "fields": {
+            "first_name": "\u0421\u043e\u043a\u043e\u0432\u043d\u0438\u043d",
+            "middle_name": "\u0410\u043d\u0434\u0440\u043e\u043d\u0438\u043a\u043e\u0432\u0438\u0447",
+            "last_name": "\u0421\u043e\u043a\u043e\u0432\u043d\u0438\u043d",
+            "birthday": "1974-10-15",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 11,
+        "fields": {
+            "first_name": "\u041b\u0435\u0432\u043a\u043e\u0432\u0438\u0447",
+            "middle_name": "\u041a\u0438\u0440\u0441\u0430\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u041b\u0435\u0432\u043a\u043e\u0432\u0438\u0447",
+            "birthday": "1951-01-09",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 12,
+        "fields": {
+            "first_name": "\u041c\u0438\u0442\u0443\u0441\u043e\u0432",
+            "middle_name": "\u041c\u0430\u0440\u0430\u0442\u043e\u0432\u0438\u0447",
+            "last_name": "\u041c\u0438\u0442\u0443\u0441\u043e\u0432",
+            "birthday": "1986-03-23",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 13,
+        "fields": {
+            "first_name": "\u0412\u043b\u0430\u0434\u044b\u0447\u0438\u043d",
+            "middle_name": "\u0410\u043b\u044c\u0444\u0440\u0435\u0434\u043e\u0432\u0438\u0447",
+            "last_name": "\u0412\u043b\u0430\u0434\u044b\u0447\u0438\u043d",
+            "birthday": "1975-11-22",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 14,
+        "fields": {
+            "first_name": "\u0421\u043e\u043b\u043e\u043c\u0435\u0440\u0435\u0446\u043a\u0438\u0439",
+            "middle_name": "\u041d\u0438\u043a\u043e\u0434\u0438\u043c\u043e\u0432\u0438\u0447",
+            "last_name": "\u0421\u043e\u043b\u043e\u043c\u0435\u0440\u0435\u0446\u043a\u0438\u0439",
+            "birthday": "1958-07-20",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 15,
+        "fields": {
+            "first_name": "\u041b\u0443\u0436\u0438\u043d",
+            "middle_name": "\u0417\u0438\u043d\u043e\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u041b\u0443\u0436\u0438\u043d",
+            "birthday": "1979-04-03",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 16,
+        "fields": {
+            "first_name": "\u0412\u0430\u0441\u0438\u043b\u044c\u043a\u043e\u0432\u0441\u043a\u0438\u0439",
+            "middle_name": "\u0414\u0430\u043d\u0438\u043b\u043e\u0432\u0438\u0447",
+            "last_name": "\u0412\u0430\u0441\u0438\u043b\u044c\u043a\u043e\u0432\u0441\u043a\u0438\u0439",
+            "birthday": "1959-09-18",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 17,
+        "fields": {
+            "first_name": "\u0411\u043e\u0431\u0440\u043e\u0432\u0441\u043a\u0438\u0439",
+            "middle_name": "\u0412\u0438\u043a\u0435\u043d\u0442\u044c\u0435\u0432\u0438\u0447",
+            "last_name": "\u0411\u043e\u0431\u0440\u043e\u0432\u0441\u043a\u0438\u0439",
+            "birthday": "1984-05-17",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 18,
+        "fields": {
+            "first_name": "\u041b\u0443\u0446\u043a\u0435\u0432\u0438\u0447",
+            "middle_name": "\u041c\u0438\u0445\u0435\u0435\u0432\u0438\u0447",
+            "last_name": "\u041b\u0443\u0446\u043a\u0435\u0432\u0438\u0447",
+            "birthday": "1952-03-23",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 19,
+        "fields": {
+            "first_name": "\u0411\u0430\u0445\u0442\u044b\u0433\u043e\u0437\u0438\u043d",
+            "middle_name": "\u0420\u044d\u043c\u043e\u0432\u0438\u0447",
+            "last_name": "\u0411\u0430\u0445\u0442\u044b\u0433\u043e\u0437\u0438\u043d",
+            "birthday": "1954-09-16",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 20,
+        "fields": {
+            "first_name": "\u0429\u0435\u043f\u0438\u043d",
+            "middle_name": "\u0410\u0432\u0435\u043d\u0438\u0440\u043e\u0432\u0438\u0447",
+            "last_name": "\u0429\u0435\u043f\u0438\u043d",
+            "birthday": "1986-02-12",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 21,
+        "fields": {
+            "first_name": "\u0415\u043c\u0435\u043b\u044c\u043a\u0438\u043d",
+            "middle_name": "\u0422\u0438\u043c\u0443\u0440\u043e\u0432\u0438\u0447",
+            "last_name": "\u0415\u043c\u0435\u043b\u044c\u043a\u0438\u043d",
+            "birthday": "1995-09-09",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 22,
+        "fields": {
+            "first_name": "\u042e\u0440\u043b\u043e\u0432",
+            "middle_name": "\u0412\u0435\u043b\u0438\u043c\u0438\u0440\u043e\u0432\u0438\u0447",
+            "last_name": "\u042e\u0440\u043b\u043e\u0432",
+            "birthday": "1984-08-26",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 23,
+        "fields": {
+            "first_name": "\u041b\u0435\u043d\u044f\u043a\u043e\u0432",
+            "middle_name": "\u0412\u0441\u0435\u0441\u043b\u0430\u0432\u043e\u0432\u0438\u0447",
+            "last_name": "\u041b\u0435\u043d\u044f\u043a\u043e\u0432",
+            "birthday": "1979-01-26",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 24,
+        "fields": {
+            "first_name": "\u041d\u0438\u043a\u043e\u043b\u044c\u0441\u043a\u0438\u0439",
+            "middle_name": "\u041c\u0430\u043d\u0443\u0439\u043b\u043e\u0432\u0438\u0447",
+            "last_name": "\u041d\u0438\u043a\u043e\u043b\u044c\u0441\u043a\u0438\u0439",
+            "birthday": "1996-09-20",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 25,
+        "fields": {
+            "first_name": "\u0411\u0438\u0442\u044f\u0433\u043e\u0432\u0441\u043a\u0438\u0439",
+            "middle_name": "\u0410\u043a\u0438\u043d\u0444\u043e\u0432\u0438\u0447",
+            "last_name": "\u0411\u0438\u0442\u044f\u0433\u043e\u0432\u0441\u043a\u0438\u0439",
+            "birthday": "1995-06-01",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 26,
+        "fields": {
+            "first_name": "\u041c\u044f\u0441\u043d\u043e\u0439",
+            "middle_name": "\u042d\u0440\u0430\u0437\u043c\u043e\u0432\u0438\u0447",
+            "last_name": "\u041c\u044f\u0441\u043d\u043e\u0439",
+            "birthday": "1973-08-28",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 27,
+        "fields": {
+            "first_name": "\u0413\u0443\u0440\u0447\u0435\u043d\u043a\u043e",
+            "middle_name": "\u0410\u0440\u0435\u0444\u044c\u0435\u0432\u0438\u0447",
+            "last_name": "\u0413\u0443\u0440\u0447\u0435\u043d\u043a\u043e",
+            "birthday": "1954-09-23",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 28,
+        "fields": {
+            "first_name": "\u0428\u0443\u043a\u043b\u0438\u043d",
+            "middle_name": "\u0413\u0435\u0440\u043c\u043e\u0433\u0435\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0428\u0443\u043a\u043b\u0438\u043d",
+            "birthday": "1959-03-13",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 29,
+        "fields": {
+            "first_name": "\u041c\u0438\u0447\u0443\u0440\u0438\u043d",
+            "middle_name": "\u041b\u044e\u0431\u043e\u043c\u0438\u0440\u043e\u0432\u0438\u0447",
+            "last_name": "\u041c\u0438\u0447\u0443\u0440\u0438\u043d",
+            "birthday": "1967-12-11",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 30,
+        "fields": {
+            "first_name": "\u0426\u0432\u0438\u0440\u043a\u043e",
+            "middle_name": "\u0412\u0441\u0435\u0432\u043e\u043b\u043e\u0434\u043e\u0432\u0438\u0447",
+            "last_name": "\u0426\u0432\u0438\u0440\u043a\u043e",
+            "birthday": "1981-01-19",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 31,
+        "fields": {
+            "first_name": "\u0422\u0435\u043b\u0435\u0448\u0435\u0432",
+            "middle_name": "\u0414\u0430\u043d\u0438\u043b\u043e\u0432\u0438\u0447",
+            "last_name": "\u0422\u0435\u043b\u0435\u0448\u0435\u0432",
+            "birthday": "1966-01-08",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 32,
+        "fields": {
+            "first_name": "\u041f\u043e\u043f\u043e\u0432\u0438\u0447",
+            "middle_name": "\u0410\u0433\u0430\u0444\u043e\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u041f\u043e\u043f\u043e\u0432\u0438\u0447",
+            "birthday": "1995-05-06",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 33,
+        "fields": {
+            "first_name": "\u0411\u0435\u043b\u044c\u043a\u043e\u0432",
+            "middle_name": "\u041d\u0430\u0442\u0430\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0411\u0435\u043b\u044c\u043a\u043e\u0432",
+            "birthday": "1984-03-22",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 34,
+        "fields": {
+            "first_name": "\u041d\u0438\u043a\u0438\u0444\u043e\u0440\u043e\u0432",
+            "middle_name": "\u041c\u0441\u0442\u0438\u0441\u043b\u0430\u0432\u043e\u0432\u0438\u0447",
+            "last_name": "\u041d\u0438\u043a\u0438\u0444\u043e\u0440\u043e\u0432",
+            "birthday": "1969-02-13",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 35,
+        "fields": {
+            "first_name": "\u0411\u0430\u043a\u0435\u0435\u0432",
+            "middle_name": "\u041c\u0430\u0440\u044c\u0435\u0432\u0438\u0447",
+            "last_name": "\u0411\u0430\u043a\u0435\u0435\u0432",
+            "birthday": "1972-12-25",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 36,
+        "fields": {
+            "first_name": "\u0411\u0435\u043b\u0430\u0432\u0438\u043d",
+            "middle_name": "\u0421\u0438\u043b\u0430\u043d\u0442\u044c\u0435\u0432\u0438\u0447",
+            "last_name": "\u0411\u0435\u043b\u0430\u0432\u0438\u043d",
+            "birthday": "1991-03-20",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 37,
+        "fields": {
+            "first_name": "\u0418\u0441\u043b\u0435\u043d\u044c\u0435\u0432",
+            "middle_name": "\u0412\u0430\u043b\u0435\u043d\u0442\u0438\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0418\u0441\u043b\u0435\u043d\u044c\u0435\u0432",
+            "birthday": "1975-03-26",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 38,
+        "fields": {
+            "first_name": "\u0411\u0443\u0440\u0446\u043e\u0432",
+            "middle_name": "\u0410\u043b\u0435\u043a\u0441\u0438\u0435\u0432\u0438\u0447",
+            "last_name": "\u0411\u0443\u0440\u0446\u043e\u0432",
+            "birthday": "1974-05-12",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 39,
+        "fields": {
+            "first_name": "\u0420\u043e\u0437\u0435\u043d\u0431\u0430\u0445",
+            "middle_name": "\u041d\u0435\u0441\u0442\u043e\u0440\u043e\u0432\u0438\u0447",
+            "last_name": "\u0420\u043e\u0437\u0435\u043d\u0431\u0430\u0445",
+            "birthday": "1978-11-16",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 40,
+        "fields": {
+            "first_name": "\u0412\u0438\u0442\u0432\u0438\u0446\u043a\u0438\u0439",
+            "middle_name": "\u041f\u0430\u043d\u0442\u0435\u043b\u0435\u0435\u0432\u0438\u0447",
+            "last_name": "\u0412\u0438\u0442\u0432\u0438\u0446\u043a\u0438\u0439",
+            "birthday": "1985-09-01",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 41,
+        "fields": {
+            "first_name": "\u0410\u0433\u0430\u043b\u0438\u043d",
+            "middle_name": "\u041b\u044e\u0446\u0438\u0430\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0410\u0433\u0430\u043b\u0438\u043d",
+            "birthday": "1958-01-27",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 42,
+        "fields": {
+            "first_name": "\u0411\u0443\u0442\u0443\u0440\u043b\u0438\u043d",
+            "middle_name": "\u041d\u0430\u0440\u0446\u0438\u0441\u0441\u043e\u0432\u0438\u0447",
+            "last_name": "\u0411\u0443\u0442\u0443\u0440\u043b\u0438\u043d",
+            "birthday": "1996-09-07",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 43,
+        "fields": {
+            "first_name": "\u0425\u043c\u0435\u0442\u0435\u0432\u0441\u043a\u0438\u0439",
+            "middle_name": "\u0415\u0433\u043e\u0440\u043e\u0432\u0438\u0447",
+            "last_name": "\u0425\u043c\u0435\u0442\u0435\u0432\u0441\u043a\u0438\u0439",
+            "birthday": "1981-04-23",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 44,
+        "fields": {
+            "first_name": "\u0421\u0443\u043a\u043e\u0432\u043a\u0438\u043d",
+            "middle_name": "\u041b\u0430\u0440\u0438\u043e\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0421\u0443\u043a\u043e\u0432\u043a\u0438\u043d",
+            "birthday": "1960-12-21",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 45,
+        "fields": {
+            "first_name": "\u0411\u0443\u0440\u043a\u043e\u0432",
+            "middle_name": "\u0418\u0441\u0438\u0434\u043e\u0440\u043e\u0432\u0438\u0447",
+            "last_name": "\u0411\u0443\u0440\u043a\u043e\u0432",
+            "birthday": "1952-07-06",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 46,
+        "fields": {
+            "first_name": "\u0412\u043e\u043b\u044b\u043d\u0441\u043a\u0438\u0439",
+            "middle_name": "\u0410\u043d\u0434\u0440\u043e\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0412\u043e\u043b\u044b\u043d\u0441\u043a\u0438\u0439",
+            "birthday": "1962-11-24",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 47,
+        "fields": {
+            "first_name": "\u041c\u0438\u043a\u0443\u043b\u0430\u0435\u0432",
+            "middle_name": "\u041f\u0430\u0432\u043b\u0438\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u041c\u0438\u043a\u0443\u043b\u0430\u0435\u0432",
+            "birthday": "1968-05-27",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 48,
+        "fields": {
+            "first_name": "\u0427\u0435\u0433\u043b\u043e\u043a\u043e\u0432",
+            "middle_name": "\u0418\u043f\u043f\u043e\u043b\u0438\u0442\u043e\u0432\u0438\u0447",
+            "last_name": "\u0427\u0435\u0433\u043b\u043e\u043a\u043e\u0432",
+            "birthday": "1957-12-27",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 49,
+        "fields": {
+            "first_name": "\u0413\u0435\u0435\u0432",
+            "middle_name": "\u0410\u0432\u0432\u0430\u043a\u0443\u043c\u043e\u0432\u0438\u0447",
+            "last_name": "\u0413\u0435\u0435\u0432",
+            "birthday": "1992-06-25",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 50,
+        "fields": {
+            "first_name": "\u0416\u0438\u043b\u0438\u043d",
+            "middle_name": "\u0420\u0430\u0444\u0430\u0438\u043b\u043e\u0432\u0438\u0447",
+            "last_name": "\u0416\u0438\u043b\u0438\u043d",
+            "birthday": "1989-09-02",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 51,
+        "fields": {
+            "first_name": "\u0411\u0430\u0442\u044e\u0448\u043a\u043e\u0432",
+            "middle_name": "\u0423\u0441\u0442\u0438\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0411\u0430\u0442\u044e\u0448\u043a\u043e\u0432",
+            "birthday": "1953-01-26",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 52,
+        "fields": {
+            "first_name": "\u0412\u0430\u0434\u0431\u043e\u043b\u044c\u0441\u043a\u0438\u0439",
+            "middle_name": "\u0418\u043e\u0430\u043d\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0412\u0430\u0434\u0431\u043e\u043b\u044c\u0441\u043a\u0438\u0439",
+            "birthday": "1973-11-11",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 53,
+        "fields": {
+            "first_name": "\u0412\u0430\u043b\u0443\u0435\u0432",
+            "middle_name": "\u0413\u0435\u0440\u043c\u043e\u0433\u0435\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0412\u0430\u043b\u0443\u0435\u0432",
+            "birthday": "1969-02-22",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 54,
+        "fields": {
+            "first_name": "\u041a\u043e\u0440\u043e\u0441\u0442\u043e\u0432\u0446\u0435\u0432",
+            "middle_name": "\u041d\u0430\u0440\u043a\u0438\u0441\u043e\u0432\u0438\u0447",
+            "last_name": "\u041a\u043e\u0440\u043e\u0441\u0442\u043e\u0432\u0446\u0435\u0432",
+            "birthday": "1955-07-14",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 55,
+        "fields": {
+            "first_name": "\u041c\u0443\u0441\u0442\u0430\u0444\u0438\u043d",
+            "middle_name": "\u041f\u0430\u043d\u0442\u0435\u043b\u0435\u0435\u0432\u0438\u0447",
+            "last_name": "\u041c\u0443\u0441\u0442\u0430\u0444\u0438\u043d",
+            "birthday": "1965-02-28",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 56,
+        "fields": {
+            "first_name": "\u041f\u043e\u0437\u0434\u0435\u0435\u0432",
+            "middle_name": "\u0424\u0438\u0440\u0441\u043e\u0432\u0438\u0447",
+            "last_name": "\u041f\u043e\u0437\u0434\u0435\u0435\u0432",
+            "birthday": "1957-02-23",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 57,
+        "fields": {
+            "first_name": "\u0427\u0435\u0441\u043d\u043e\u043a",
+            "middle_name": "\u0425\u0430\u0440\u0438\u0442\u043e\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0427\u0435\u0441\u043d\u043e\u043a",
+            "birthday": "1968-09-04",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 58,
+        "fields": {
+            "first_name": "\u0428\u0443\u043b\u044c\u0433\u043e\u0432\u0441\u043a\u0438\u0439",
+            "middle_name": "\u0421\u0430\u043c\u0441\u043e\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0428\u0443\u043b\u044c\u0433\u043e\u0432\u0441\u043a\u0438\u0439",
+            "birthday": "1961-12-20",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 59,
+        "fields": {
+            "first_name": "\u0422\u0440\u0443\u0441\u043e\u0432",
+            "middle_name": "\u0415\u043b\u0438\u0437\u0430\u0440\u043e\u0432\u0438\u0447",
+            "last_name": "\u0422\u0440\u0443\u0441\u043e\u0432",
+            "birthday": "1991-01-12",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 60,
+        "fields": {
+            "first_name": "\u0411\u0443\u0440\u043b\u0435\u0439",
+            "middle_name": "\u0411\u043e\u0433\u0434\u0430\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0411\u0443\u0440\u043b\u0435\u0439",
+            "birthday": "1962-02-17",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 61,
+        "fields": {
+            "first_name": "\u0422\u0440\u0443\u0441\u043e\u0432",
+            "middle_name": "\u0410\u043a\u0441\u0451\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0422\u0440\u0443\u0441\u043e\u0432",
+            "birthday": "1973-07-13",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 62,
+        "fields": {
+            "first_name": "\u0412\u043b\u0435\u0437\u043a\u043e\u0432",
+            "middle_name": "\u0410\u043d\u0434\u0440\u043e\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0412\u043b\u0435\u0437\u043a\u043e\u0432",
+            "birthday": "1951-07-15",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 63,
+        "fields": {
+            "first_name": "\u0412\u0435\u043a\u043e\u0448\u043a\u0438\u043d",
+            "middle_name": "\u0410\u0440\u043d\u043e\u043b\u044c\u0434\u043e\u0432\u0438\u0447",
+            "last_name": "\u0412\u0435\u043a\u043e\u0448\u043a\u0438\u043d",
+            "birthday": "1955-09-11",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 64,
+        "fields": {
+            "first_name": "\u0420\u043e\u0432\u0438\u043d\u0441\u043a\u0438\u0439",
+            "middle_name": "\u0415\u0432\u0441\u0442\u0438\u0433\u043d\u0435\u0435\u0432\u0438\u0447",
+            "last_name": "\u0420\u043e\u0432\u0438\u043d\u0441\u043a\u0438\u0439",
+            "birthday": "1953-01-09",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 65,
+        "fields": {
+            "first_name": "\u041a\u043e\u043c\u0430\u0440",
+            "middle_name": "\u041a\u043e\u043d\u0434\u0440\u0430\u0442\u043e\u0432\u0438\u0447",
+            "last_name": "\u041a\u043e\u043c\u0430\u0440",
+            "birthday": "1956-06-10",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 66,
+        "fields": {
+            "first_name": "\u0411\u0443\u0434\u0431\u0435\u0440\u0433",
+            "middle_name": "\u0413\u0430\u0432\u0440\u0438\u043b\u043e\u0432\u0438\u0447",
+            "last_name": "\u0411\u0443\u0434\u0431\u0435\u0440\u0433",
+            "birthday": "1991-12-24",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 67,
+        "fields": {
+            "first_name": "\u0421\u0435\u043b\u0438\u0432\u0435\u0440\u0441\u0442\u043e\u0432",
+            "middle_name": "\u0422\u0435\u043e\u0434\u043e\u0440\u043e\u0432\u0438\u0447",
+            "last_name": "\u0421\u0435\u043b\u0438\u0432\u0435\u0440\u0441\u0442\u043e\u0432",
+            "birthday": "1956-12-23",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 68,
+        "fields": {
+            "first_name": "\u0418\u0433\u043d\u0430\u0442\u044c\u0435\u0432",
+            "middle_name": "\u041a\u0438\u043f\u0440\u0438\u0430\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0418\u0433\u043d\u0430\u0442\u044c\u0435\u0432",
+            "birthday": "1987-01-03",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 69,
+        "fields": {
+            "first_name": "\u0427\u0430\u0440\u043d\u044b\u0448",
+            "middle_name": "\u042f\u043d\u0443\u0430\u0440\u0438\u0435\u0432\u0438\u0447",
+            "last_name": "\u0427\u0430\u0440\u043d\u044b\u0448",
+            "birthday": "1957-10-04",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 70,
+        "fields": {
+            "first_name": "\u0428\u0440\u0435\u0434\u0435\u0440",
+            "middle_name": "\u0421\u0435\u043b\u0438\u0432\u0451\u0440\u0441\u0442\u043e\u0432\u0438\u0447",
+            "last_name": "\u0428\u0440\u0435\u0434\u0435\u0440",
+            "birthday": "1963-07-04",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 71,
+        "fields": {
+            "first_name": "\u0411\u0430\u043a\u0443\u0440\u0438\u043d\u0441\u043a\u0438\u0439",
+            "middle_name": "\u041d\u0438\u043a\u043e\u043b\u0430\u0435\u0432\u0438\u0447",
+            "last_name": "\u0411\u0430\u043a\u0443\u0440\u0438\u043d\u0441\u043a\u0438\u0439",
+            "birthday": "1972-10-20",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 72,
+        "fields": {
+            "first_name": "\u041d\u0435\u0441\u0432\u0438\u0446\u043a\u0438\u0439",
+            "middle_name": "\u041d\u0438\u043a\u043e\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u041d\u0435\u0441\u0432\u0438\u0446\u043a\u0438\u0439",
+            "birthday": "1950-10-03",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 73,
+        "fields": {
+            "first_name": "\u0412\u043e\u0436\u0436\u0438\u043d\u0441\u043a\u0438\u0439",
+            "middle_name": "\u0410\u043b\u0435\u043a\u0441\u0435\u0435\u0432\u0438\u0447",
+            "last_name": "\u0412\u043e\u0436\u0436\u0438\u043d\u0441\u043a\u0438\u0439",
+            "birthday": "1994-01-10",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 74,
+        "fields": {
+            "first_name": "\u0410\u043f\u0443\u0448\u043a\u0438\u043d",
+            "middle_name": "\u041c\u043e\u0438\u0441\u0435\u0435\u0432\u0438\u0447",
+            "last_name": "\u0410\u043f\u0443\u0448\u043a\u0438\u043d",
+            "birthday": "1965-02-14",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 75,
+        "fields": {
+            "first_name": "\u0413\u0440\u0435\u043a\u043e\u0432",
+            "middle_name": "\u041c\u043e\u0438\u0441\u0435\u0435\u0432\u0438\u0447",
+            "last_name": "\u0413\u0440\u0435\u043a\u043e\u0432",
+            "birthday": "1984-09-14",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 76,
+        "fields": {
+            "first_name": "\u0411\u043b\u0443\u0434\u043e\u0432",
+            "middle_name": "\u041c\u0430\u0440\u0442\u044b\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0411\u043b\u0443\u0434\u043e\u0432",
+            "birthday": "1994-06-02",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 77,
+        "fields": {
+            "first_name": "\u0423\u0448\u0430\u043a\u043e\u0432",
+            "middle_name": "\u041c\u043e\u0434\u0435\u0441\u0442\u043e\u0432\u0438\u0447",
+            "last_name": "\u0423\u0448\u0430\u043a\u043e\u0432",
+            "birthday": "1966-04-06",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 78,
+        "fields": {
+            "first_name": "\u0417\u043c\u0438\u0435\u0432",
+            "middle_name": "\u0421\u0435\u0431\u0430\u0441\u0442\u044c\u044f\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0417\u043c\u0438\u0435\u0432",
+            "birthday": "1985-02-01",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 79,
+        "fields": {
+            "first_name": "\u041f\u0438\u0441\u0430\u0440\u0447\u0443\u043a",
+            "middle_name": "\u0418\u0441\u0438\u0434\u043e\u0440\u043e\u0432\u0438\u0447",
+            "last_name": "\u041f\u0438\u0441\u0430\u0440\u0447\u0443\u043a",
+            "birthday": "1952-03-22",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 80,
+        "fields": {
+            "first_name": "\u0412\u043b\u0430\u0441\u044c\u0435\u0432",
+            "middle_name": "\u0424\u0435\u0440\u0430\u043f\u043e\u043d\u0442\u043e\u0432\u0438\u0447",
+            "last_name": "\u0412\u043b\u0430\u0441\u044c\u0435\u0432",
+            "birthday": "1956-11-18",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 81,
+        "fields": {
+            "first_name": "\u041c\u044f\u0442\u043b\u0435\u0432",
+            "middle_name": "\u041c\u0430\u0432\u0440\u043e\u0432\u0438\u0447",
+            "last_name": "\u041c\u044f\u0442\u043b\u0435\u0432",
+            "birthday": "1991-03-25",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 82,
+        "fields": {
+            "first_name": "\u0413\u043e\u043b\u043e\u0432\u0430\u0447\u0451\u0432",
+            "middle_name": "\u041d\u0438\u043b\u043e\u0432\u0438\u0447",
+            "last_name": "\u0413\u043e\u043b\u043e\u0432\u0430\u0447\u0451\u0432",
+            "birthday": "1975-05-09",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 83,
+        "fields": {
+            "first_name": "\u041a\u0430\u043c\u0438\u043d\u0441\u043a\u0438\u0439",
+            "middle_name": "\u0412\u0441\u0435\u0432\u043e\u043b\u043e\u0434\u043e\u0432\u0438\u0447",
+            "last_name": "\u041a\u0430\u043c\u0438\u043d\u0441\u043a\u0438\u0439",
+            "birthday": "1967-12-27",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 84,
+        "fields": {
+            "first_name": "\u0421\u043f\u0438\u0446\u044b\u043d",
+            "middle_name": "\u041f\u0430\u043d\u0444\u0438\u043b\u043e\u0432\u0438\u0447",
+            "last_name": "\u0421\u043f\u0438\u0446\u044b\u043d",
+            "birthday": "1954-09-11",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 85,
+        "fields": {
+            "first_name": "\u042e\u0441\u0443\u043f\u043e\u0432",
+            "middle_name": "\u0412\u044f\u0447\u0435\u0441\u043b\u0430\u0432\u043e\u0432\u0438\u0447",
+            "last_name": "\u042e\u0441\u0443\u043f\u043e\u0432",
+            "birthday": "1996-03-27",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 86,
+        "fields": {
+            "first_name": "\u041a\u0440\u0435\u043c\u0435\u0440",
+            "middle_name": "\u0410\u0433\u0435\u0435\u0432\u0438\u0447",
+            "last_name": "\u041a\u0440\u0435\u043c\u0435\u0440",
+            "birthday": "1999-05-11",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 87,
+        "fields": {
+            "first_name": "\u042e\u043c\u0430\u0448\u0435\u0432",
+            "middle_name": "\u0417\u0438\u043d\u043e\u0432\u044c\u0435\u0432\u0438\u0447",
+            "last_name": "\u042e\u043c\u0430\u0448\u0435\u0432",
+            "birthday": "1994-08-26",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 88,
+        "fields": {
+            "first_name": "\u041a\u043e\u0441\u0442\u0440\u043e\u0432",
+            "middle_name": "\u0418\u0441\u0430\u0430\u043a\u043e\u0432\u0438\u0447",
+            "last_name": "\u041a\u043e\u0441\u0442\u0440\u043e\u0432",
+            "birthday": "1976-06-08",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 89,
+        "fields": {
+            "first_name": "\u041c\u0430\u0440\u0442\u044c\u044f\u043d\u043e\u0432",
+            "middle_name": "\u0424\u0438\u043b\u0430\u0440\u0435\u0442\u043e\u0432\u0438\u0447",
+            "last_name": "\u041c\u0430\u0440\u0442\u044c\u044f\u043d\u043e\u0432",
+            "birthday": "1978-07-01",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 90,
+        "fields": {
+            "first_name": "\u041f\u043e\u043f\u043e\u0432",
+            "middle_name": "\u0414\u0430\u043b\u043c\u0430\u0442\u043e\u0432\u0438\u0447",
+            "last_name": "\u041f\u043e\u043f\u043e\u0432",
+            "birthday": "1983-01-13",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 91,
+        "fields": {
+            "first_name": "\u0427\u0430\u0430\u0434\u0430\u0435\u0432",
+            "middle_name": "\u0424\u0435\u043a\u0442\u0438\u0441\u0442\u043e\u0432\u0438\u0447",
+            "last_name": "\u0427\u0430\u0430\u0434\u0430\u0435\u0432",
+            "birthday": "1980-10-20",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 92,
+        "fields": {
+            "first_name": "\u0425\u043e\u043b\u043e\u043d\u0435\u0432\u0441\u043a\u0438\u0439",
+            "middle_name": "\u041a\u0438\u0440\u0438\u043b\u043e\u0432\u0438\u0447",
+            "last_name": "\u0425\u043e\u043b\u043e\u043d\u0435\u0432\u0441\u043a\u0438\u0439",
+            "birthday": "1958-11-08",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 93,
+        "fields": {
+            "first_name": "\u041b\u0443\u043f\u0430\u043d\u0434\u0438\u043d",
+            "middle_name": "\u041a\u0438\u0440\u0441\u0430\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u041b\u0443\u043f\u0430\u043d\u0434\u0438\u043d",
+            "birthday": "1964-01-26",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 94,
+        "fields": {
+            "first_name": "\u0414\u0438\u0432\u0435\u0435\u0432",
+            "middle_name": "\u0413\u0435\u0440\u0430\u0441\u0438\u043c\u043e\u0432\u0438\u0447",
+            "last_name": "\u0414\u0438\u0432\u0435\u0435\u0432",
+            "birthday": "1985-07-16",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 95,
+        "fields": {
+            "first_name": "\u041a\u0430\u0447\u0430\u043b\u043e\u0432",
+            "middle_name": "\u041d\u0438\u0444\u043e\u043d\u0442\u043e\u0432\u0438\u0447",
+            "last_name": "\u041a\u0430\u0447\u0430\u043b\u043e\u0432",
+            "birthday": "1977-12-18",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 96,
+        "fields": {
+            "first_name": "\u0421\u0438\u043f\u044f\u0433\u0438\u043d",
+            "middle_name": "\u0411\u0440\u0430\u0442\u0438\u0441\u043b\u0430\u0432\u043e\u0432\u0438\u0447",
+            "last_name": "\u0421\u0438\u043f\u044f\u0433\u0438\u043d",
+            "birthday": "1960-07-17",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 97,
+        "fields": {
+            "first_name": "\u0411\u0440\u0430\u0442\u0446\u043e\u0432",
+            "middle_name": "\u041c\u0438\u0445\u0435\u0435\u0432\u0438\u0447",
+            "last_name": "\u0411\u0440\u0430\u0442\u0446\u043e\u0432",
+            "birthday": "1997-11-27",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 98,
+        "fields": {
+            "first_name": "\u041e\u0433\u0430\u0440\u0435\u0432",
+            "middle_name": "\u041d\u0438\u043a\u0438\u0444\u043e\u0440\u043e\u0432\u0438\u0447",
+            "last_name": "\u041e\u0433\u0430\u0440\u0435\u0432",
+            "birthday": "1975-07-02",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 99,
+        "fields": {
+            "first_name": "\u0413\u043e\u043b\u0438\u0446\u044b\u043d",
+            "middle_name": "\u041c\u0430\u0440\u043a\u043e\u0432\u0438\u0447",
+            "last_name": "\u0413\u043e\u043b\u0438\u0446\u044b\u043d",
+            "birthday": "1972-01-24",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 100,
+        "fields": {
+            "first_name": "\u0413\u043e\u0440\u043e\u0445\u043e\u0432",
+            "middle_name": "\u041f\u0430\u0440\u0430\u043c\u043e\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0413\u043e\u0440\u043e\u0445\u043e\u0432",
+            "birthday": "1983-07-12",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 101,
+        "fields": {
+            "first_name": "\u0420\u044b\u043b\u0435\u0435\u0432",
+            "middle_name": "\u0417\u0438\u043d\u043e\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0420\u044b\u043b\u0435\u0435\u0432",
+            "birthday": "1955-11-24",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 102,
+        "fields": {
+            "first_name": "\u0428\u0438\u0445\u043c\u0430\u0442\u043e\u0432",
+            "middle_name": "\u0424\u0435\u043a\u0442\u0438\u0441\u0442\u043e\u0432\u0438\u0447",
+            "last_name": "\u0428\u0438\u0445\u043c\u0430\u0442\u043e\u0432",
+            "birthday": "1950-10-18",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 103,
+        "fields": {
+            "first_name": "\u0424\u043e\u0433\u043b\u044c",
+            "middle_name": "\u0421\u0435\u0440\u0430\u043f\u0438\u043e\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0424\u043e\u0433\u043b\u044c",
+            "birthday": "1956-02-25",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 104,
+        "fields": {
+            "first_name": "\u041d\u0435\u0432\u0438\u043d\u0441\u043a\u0438\u0439",
+            "middle_name": "\u0418\u0441\u0438\u0434\u043e\u0440\u043e\u0432\u0438\u0447",
+            "last_name": "\u041d\u0435\u0432\u0438\u043d\u0441\u043a\u0438\u0439",
+            "birthday": "1985-12-24",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 105,
+        "fields": {
+            "first_name": "\u0428\u0430\u043b\u0438\u043c\u043e\u0432",
+            "middle_name": "\u0424\u0438\u043b\u0438\u043c\u043e\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0428\u0430\u043b\u0438\u043c\u043e\u0432",
+            "birthday": "1959-04-16",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 106,
+        "fields": {
+            "first_name": "\u041b\u0430\u043c\u0430\u043d\u0441\u043a\u0438\u0439",
+            "middle_name": "\u0417\u0435\u043d\u043e\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u041b\u0430\u043c\u0430\u043d\u0441\u043a\u0438\u0439",
+            "birthday": "1991-07-09",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 107,
+        "fields": {
+            "first_name": "\u041a\u0430\u0437\u0438\u043d",
+            "middle_name": "\u042d\u0434\u043c\u0443\u043d\u0434\u043e\u0432\u0438\u0447",
+            "last_name": "\u041a\u0430\u0437\u0438\u043d",
+            "birthday": "1987-12-22",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 108,
+        "fields": {
+            "first_name": "\u0421\u0435\u043d\u044f\u0432\u0438\u043d",
+            "middle_name": "\u041f\u043e\u0442\u0430\u043f\u043e\u0432\u0438\u0447",
+            "last_name": "\u0421\u0435\u043d\u044f\u0432\u0438\u043d",
+            "birthday": "1975-10-17",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 109,
+        "fields": {
+            "first_name": "\u041a\u0435\u043b\u043b\u0435\u0440",
+            "middle_name": "\u0418\u043f\u043f\u043e\u043b\u0438\u0442\u043e\u0432\u0438\u0447",
+            "last_name": "\u041a\u0435\u043b\u043b\u0435\u0440",
+            "birthday": "1967-01-16",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 110,
+        "fields": {
+            "first_name": "\u0411\u0435\u043b\u0435\u0446\u043a\u0438\u0439",
+            "middle_name": "\u0422\u0440\u0438\u0444\u043e\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0411\u0435\u043b\u0435\u0446\u043a\u0438\u0439",
+            "birthday": "2000-11-22",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 111,
+        "fields": {
+            "first_name": "\u041a\u0430\u0440\u0430\u0431\u0447\u0435\u0432\u0441\u043a\u0438\u0439",
+            "middle_name": "\u042e\u043b\u0438\u0430\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u041a\u0430\u0440\u0430\u0431\u0447\u0435\u0432\u0441\u043a\u0438\u0439",
+            "birthday": "1971-03-13",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 112,
+        "fields": {
+            "first_name": "\u0422\u0440\u043e\u0435\u043a\u0443\u0440\u043e\u0432",
+            "middle_name": "\u041a\u0438\u043f\u0440\u0438\u0430\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0422\u0440\u043e\u0435\u043a\u0443\u0440\u043e\u0432",
+            "birthday": "1963-02-10",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 113,
+        "fields": {
+            "first_name": "\u041c\u044f\u0441\u043d\u043e\u0439",
+            "middle_name": "\u0421\u043e\u043a\u0440\u0430\u0442\u043e\u0432\u0438\u0447",
+            "last_name": "\u041c\u044f\u0441\u043d\u043e\u0439",
+            "birthday": "1968-08-17",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 114,
+        "fields": {
+            "first_name": "\u0421\u0435\u043b\u0435\u0437\u043d\u0451\u0432",
+            "middle_name": "\u041d\u0438\u043a\u0430\u043d\u0434\u0440\u043e\u0432\u0438\u0447",
+            "last_name": "\u0421\u0435\u043b\u0435\u0437\u043d\u0451\u0432",
+            "birthday": "1980-07-01",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 115,
+        "fields": {
+            "first_name": "\u041b\u0435\u043d\u0438\u0432\u0446\u0435\u0432",
+            "middle_name": "\u041f\u0430\u043d\u043a\u0440\u0430\u0442\u044c\u0435\u0432\u0438\u0447",
+            "last_name": "\u041b\u0435\u043d\u0438\u0432\u0446\u0435\u0432",
+            "birthday": "1990-04-03",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 116,
+        "fields": {
+            "first_name": "\u041c\u0438\u0449\u0435\u043d\u043a\u043e",
+            "middle_name": "\u0414\u0430\u043c\u0438\u0430\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u041c\u0438\u0449\u0435\u043d\u043a\u043e",
+            "birthday": "1955-08-07",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 117,
+        "fields": {
+            "first_name": "\u041b\u0435\u043e\u043d\u0442\u044c\u0435\u0432",
+            "middle_name": "\u0410\u0440\u043e\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u041b\u0435\u043e\u043d\u0442\u044c\u0435\u0432",
+            "birthday": "1973-04-13",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 118,
+        "fields": {
+            "first_name": "\u0418\u0437\u0432\u0435\u043a\u043e\u0432",
+            "middle_name": "\u0421\u043e\u0437\u043e\u043d\u0442\u043e\u0432\u0438\u0447",
+            "last_name": "\u0418\u0437\u0432\u0435\u043a\u043e\u0432",
+            "birthday": "1975-11-12",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 119,
+        "fields": {
+            "first_name": "\u041a\u0430\u0440\u044f\u043a\u0438\u043d",
+            "middle_name": "\u0410\u0440\u0445\u0438\u043f\u043f\u043e\u0432\u0438\u0447",
+            "last_name": "\u041a\u0430\u0440\u044f\u043a\u0438\u043d",
+            "birthday": "1956-02-14",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 120,
+        "fields": {
+            "first_name": "\u041c\u0438\u043a\u0435\u0448\u0438\u043d",
+            "middle_name": "\u041c\u0438\u0445\u0430\u0439\u043b\u043e\u0432\u0438\u0447",
+            "last_name": "\u041c\u0438\u043a\u0435\u0448\u0438\u043d",
+            "birthday": "1979-07-01",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 121,
+        "fields": {
+            "first_name": "\u0411\u0435\u043b\u043a\u0438\u043d",
+            "middle_name": "\u042f\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0411\u0435\u043b\u043a\u0438\u043d",
+            "birthday": "1956-10-24",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 122,
+        "fields": {
+            "first_name": "\u041f\u043e\u043b\u0443\u0435\u043a\u0442\u043e\u0432",
+            "middle_name": "\u041d\u0438\u0444\u043e\u043d\u0442\u043e\u0432\u0438\u0447",
+            "last_name": "\u041f\u043e\u043b\u0443\u0435\u043a\u0442\u043e\u0432",
+            "birthday": "1991-03-23",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 123,
+        "fields": {
+            "first_name": "\u0416\u0443\u0440\u0430\u0432\u0441\u043a\u0438\u0439",
+            "middle_name": "\u0414\u0435\u043c\u044c\u044f\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0416\u0443\u0440\u0430\u0432\u0441\u043a\u0438\u0439",
+            "birthday": "1972-02-03",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 124,
+        "fields": {
+            "first_name": "\u0413\u0430\u0440\u044e\u0448\u043a\u0438\u043d",
+            "middle_name": "\u041a\u043b\u0430\u0432\u0434\u0438\u0435\u0432\u0438\u0447",
+            "last_name": "\u0413\u0430\u0440\u044e\u0448\u043a\u0438\u043d",
+            "birthday": "1982-06-02",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 125,
+        "fields": {
+            "first_name": "\u0417\u0430\u0445\u0430\u0440\u0447\u0443\u043a",
+            "middle_name": "\u0410\u0440\u043a\u0430\u0434\u044c\u0435\u0432\u0438\u0447",
+            "last_name": "\u0417\u0430\u0445\u0430\u0440\u0447\u0443\u043a",
+            "birthday": "1968-07-11",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 126,
+        "fields": {
+            "first_name": "\u041c\u043e\u043b\u0447\u0430\u043d\u043e\u0432",
+            "middle_name": "\u0421\u0438\u0434\u043e\u0440\u043e\u0432\u0438\u0447",
+            "last_name": "\u041c\u043e\u043b\u0447\u0430\u043d\u043e\u0432",
+            "birthday": "1971-10-06",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 127,
+        "fields": {
+            "first_name": "\u041b\u0430\u0448\u043a\u0430\u0440\u0451\u0432",
+            "middle_name": "\u0417\u0430\u0445\u0430\u0440\u044c\u0435\u0432\u0438\u0447",
+            "last_name": "\u041b\u0430\u0448\u043a\u0430\u0440\u0451\u0432",
+            "birthday": "1967-09-11",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 128,
+        "fields": {
+            "first_name": "\u0416\u0430\u0431\u0438\u043d",
+            "middle_name": "\u0410\u0434\u043e\u043d\u0438\u0441\u043e\u0432\u0438\u0447",
+            "last_name": "\u0416\u0430\u0431\u0438\u043d",
+            "birthday": "1973-02-18",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 129,
+        "fields": {
+            "first_name": "\u041a\u043e\u0440\u043e\u0431\u043e\u0432",
+            "middle_name": "\u0410\u043d\u0444\u0438\u043c\u043e\u0432\u0438\u0447",
+            "last_name": "\u041a\u043e\u0440\u043e\u0431\u043e\u0432",
+            "birthday": "1968-12-07",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 130,
+        "fields": {
+            "first_name": "\u041a\u0438\u0440\u0438\u043b\u044e\u043a",
+            "middle_name": "\u0411\u043e\u0440\u0438\u0441\u043b\u0430\u0432\u043e\u0432\u0438\u0447",
+            "last_name": "\u041a\u0438\u0440\u0438\u043b\u044e\u043a",
+            "birthday": "1957-01-02",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 131,
+        "fields": {
+            "first_name": "\u0411\u0443\u0440\u0446\u043e\u0432",
+            "middle_name": "\u0424\u0435\u0434\u043e\u0441\u044c\u0435\u0432\u0438\u0447",
+            "last_name": "\u0411\u0443\u0440\u0446\u043e\u0432",
+            "birthday": "1981-02-17",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 132,
+        "fields": {
+            "first_name": "\u041a\u043e\u043c\u0430\u0440\u043e\u0432",
+            "middle_name": "\u0421\u0442\u0430\u043d\u0438\u0441\u043b\u0430\u0432\u043e\u0432\u0438\u0447",
+            "last_name": "\u041a\u043e\u043c\u0430\u0440\u043e\u0432",
+            "birthday": "1981-02-03",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 133,
+        "fields": {
+            "first_name": "\u0410\u0440\u0441\u0435\u043d\u044c\u0435\u0432",
+            "middle_name": "\u0410\u0444\u0440\u0438\u043a\u0430\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0410\u0440\u0441\u0435\u043d\u044c\u0435\u0432",
+            "birthday": "1985-02-12",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 134,
+        "fields": {
+            "first_name": "\u0411\u043e\u0440\u0437\u043e\u0432",
+            "middle_name": "\u0413\u0443\u0440\u044c\u044f\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0411\u043e\u0440\u0437\u043e\u0432",
+            "birthday": "1997-04-21",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 135,
+        "fields": {
+            "first_name": "\u0411\u043e\u043b\u044b\u0447\u0435\u0432\u0446\u0435\u0432",
+            "middle_name": "\u0410\u043d\u0442\u043e\u043d\u0438\u0435\u0432\u0438\u0447",
+            "last_name": "\u0411\u043e\u043b\u044b\u0447\u0435\u0432\u0446\u0435\u0432",
+            "birthday": "1955-08-14",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 136,
+        "fields": {
+            "first_name": "\u0423\u0441\u0442\u0438\u043c\u043e\u0432\u0438\u0447",
+            "middle_name": "\u0421\u0442\u0435\u043f\u0430\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0423\u0441\u0442\u0438\u043c\u043e\u0432\u0438\u0447",
+            "birthday": "1975-04-12",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 137,
+        "fields": {
+            "first_name": "\u0413\u0430\u043b\u0435\u043d\u043a\u043e\u0432\u0441\u043a\u0438\u0439",
+            "middle_name": "\u041f\u0440\u043e\u043a\u043e\u043f\u043e\u0432\u0438\u0447",
+            "last_name": "\u0413\u0430\u043b\u0435\u043d\u043a\u043e\u0432\u0441\u043a\u0438\u0439",
+            "birthday": "2000-08-28",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 138,
+        "fields": {
+            "first_name": "\u0417\u0430\u0433\u043e\u0441\u043a\u0438\u043d",
+            "middle_name": "\u0410\u0432\u0435\u0440\u044c\u044f\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0417\u0430\u0433\u043e\u0441\u043a\u0438\u043d",
+            "birthday": "1982-07-09",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 139,
+        "fields": {
+            "first_name": "\u0428\u0440\u0435\u0434\u0435\u0440",
+            "middle_name": "\u0413\u0430\u0432\u0440\u0438\u043b\u043e\u0432\u0438\u0447",
+            "last_name": "\u0428\u0440\u0435\u0434\u0435\u0440",
+            "birthday": "1995-05-18",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 140,
+        "fields": {
+            "first_name": "\u0411\u043e\u0440\u0438\u0441\u043e\u0432",
+            "middle_name": "\u0410\u0432\u0440\u0435\u043b\u0438\u0435\u0432\u0438\u0447",
+            "last_name": "\u0411\u043e\u0440\u0438\u0441\u043e\u0432",
+            "birthday": "1957-04-18",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 141,
+        "fields": {
+            "first_name": "\u0425\u0432\u043e\u0441\u0442\u0435\u043d\u043a\u043e",
+            "middle_name": "\u0410\u043d\u0430\u0441\u0442\u0430\u0441\u044c\u0435\u0432\u0438\u0447",
+            "last_name": "\u0425\u0432\u043e\u0441\u0442\u0435\u043d\u043a\u043e",
+            "birthday": "1955-02-01",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 142,
+        "fields": {
+            "first_name": "\u0428\u0438\u0448\u043a\u0438\u043d",
+            "middle_name": "\u041a\u0438\u0440\u043e\u0432\u0438\u0447",
+            "last_name": "\u0428\u0438\u0448\u043a\u0438\u043d",
+            "birthday": "1975-02-22",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 143,
+        "fields": {
+            "first_name": "\u041e\u0441\u0442\u0440\u043e\u0433\u0440\u0430\u0434\u0441\u043a\u0438\u0439",
+            "middle_name": "\u041d\u0438\u043a\u0438\u0442\u0438\u0447",
+            "last_name": "\u041e\u0441\u0442\u0440\u043e\u0433\u0440\u0430\u0434\u0441\u043a\u0438\u0439",
+            "birthday": "1979-02-18",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 144,
+        "fields": {
+            "first_name": "\u0417\u0438\u043d\u0447\u0443\u043a",
+            "middle_name": "\u0410\u0440\u0442\u0443\u0440\u043e\u0432\u0438\u0447",
+            "last_name": "\u0417\u0438\u043d\u0447\u0443\u043a",
+            "birthday": "1967-02-20",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 145,
+        "fields": {
+            "first_name": "\u0416\u0438\u043b\u0438\u043d\u0441\u043a\u0438\u0439",
+            "middle_name": "\u0410\u0431\u0440\u0430\u043c\u0438\u0435\u0432\u0438\u0447",
+            "last_name": "\u0416\u0438\u043b\u0438\u043d\u0441\u043a\u0438\u0439",
+            "birthday": "1954-10-20",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 146,
+        "fields": {
+            "first_name": "\u041d\u0435\u0444\u0435\u0434\u044c\u0435\u0432",
+            "middle_name": "\u041b\u0435\u043e\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u041d\u0435\u0444\u0435\u0434\u044c\u0435\u0432",
+            "birthday": "1965-07-23",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 147,
+        "fields": {
+            "first_name": "\u0411\u0443\u0445\u0442\u0438\u044f\u0440\u043e\u0432",
+            "middle_name": "\u0418\u0440\u0430\u043a\u043b\u0438\u0435\u0432\u0438\u0447",
+            "last_name": "\u0411\u0443\u0445\u0442\u0438\u044f\u0440\u043e\u0432",
+            "birthday": "1972-04-16",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 148,
+        "fields": {
+            "first_name": "\u041f\u0440\u0438\u043a\u043b\u043e\u043d\u0441\u043a\u0438\u0439",
+            "middle_name": "\u0421\u0430\u0432\u0432\u0430\u0442\u044c\u0435\u0432\u0438\u0447",
+            "last_name": "\u041f\u0440\u0438\u043a\u043b\u043e\u043d\u0441\u043a\u0438\u0439",
+            "birthday": "1993-05-16",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 149,
+        "fields": {
+            "first_name": "\u0415\u043b\u0430\u0433\u0438\u043d",
+            "middle_name": "\u042d\u043c\u043c\u0430\u043d\u0443\u0438\u043b\u043e\u0432\u0438\u0447",
+            "last_name": "\u0415\u043b\u0430\u0433\u0438\u043d",
+            "birthday": "1988-10-08",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 150,
+        "fields": {
+            "first_name": "\u041a\u0430\u0447\u0430\u043b\u043e\u0432",
+            "middle_name": "\u041d\u0435\u0444\u0451\u0434\u043e\u0432\u0438\u0447",
+            "last_name": "\u041a\u0430\u0447\u0430\u043b\u043e\u0432",
+            "birthday": "1989-02-16",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 151,
+        "fields": {
+            "first_name": "\u0413\u043e\u0440\u0442\u0430\u043b\u043e\u0432",
+            "middle_name": "\u0414\u043c\u0438\u0442\u0440\u0438\u0435\u0432\u0438\u0447",
+            "last_name": "\u0413\u043e\u0440\u0442\u0430\u043b\u043e\u0432",
+            "birthday": "1954-02-15",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 152,
+        "fields": {
+            "first_name": "\u041a\u0430\u0434\u043d\u0438\u043a\u043e\u0432",
+            "middle_name": "\u0412\u0438\u043a\u0435\u043d\u0442\u044c\u0435\u0432\u0438\u0447",
+            "last_name": "\u041a\u0430\u0434\u043d\u0438\u043a\u043e\u0432",
+            "birthday": "1982-04-01",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 153,
+        "fields": {
+            "first_name": "\u0413\u0443\u0434\u043e\u0432\u0438\u0447",
+            "middle_name": "\u041a\u043b\u0430\u0432\u0434\u0438\u0435\u0432\u0438\u0447",
+            "last_name": "\u0413\u0443\u0434\u043e\u0432\u0438\u0447",
+            "birthday": "1992-12-18",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 154,
+        "fields": {
+            "first_name": "\u0412\u0430\u0441\u0430\u0435\u0432",
+            "middle_name": "\u041c\u0438\u0440\u043e\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0412\u0430\u0441\u0430\u0435\u0432",
+            "birthday": "1992-02-24",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 155,
+        "fields": {
+            "first_name": "\u0415\u0444\u0438\u043c\u043e\u0432\u0441\u043a\u0438\u0439",
+            "middle_name": "\u0421\u0435\u0432\u0430\u0441\u0442\u0438\u0430\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0415\u0444\u0438\u043c\u043e\u0432\u0441\u043a\u0438\u0439",
+            "birthday": "1970-12-09",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 156,
+        "fields": {
+            "first_name": "\u0411\u0443\u0442\u043a\u043e\u0432",
+            "middle_name": "\u0410\u0432\u0442\u043e\u043d\u043e\u043c\u043e\u0432\u0438\u0447",
+            "last_name": "\u0411\u0443\u0442\u043a\u043e\u0432",
+            "birthday": "1991-10-06",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 157,
+        "fields": {
+            "first_name": "\u0410\u0433\u0430\u043b\u0438\u043d",
+            "middle_name": "\u041c\u0438\u0442\u0440\u043e\u0444\u0430\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0410\u0433\u0430\u043b\u0438\u043d",
+            "birthday": "1993-01-01",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 158,
+        "fields": {
+            "first_name": "\u0428\u0435\u0441\u0442\u0430\u043a\u043e\u0432",
+            "middle_name": "\u0413\u0430\u0432\u0440\u0438\u0438\u043b\u043e\u0432\u0438\u0447",
+            "last_name": "\u0428\u0435\u0441\u0442\u0430\u043a\u043e\u0432",
+            "birthday": "1961-04-13",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 159,
+        "fields": {
+            "first_name": "\u0413\u0440\u0430\u0431\u043b\u0435\u043d\u043e\u0432",
+            "middle_name": "\u0410\u0432\u0435\u0440\u043a\u0438\u0435\u0432\u0438\u0447",
+            "last_name": "\u0413\u0440\u0430\u0431\u043b\u0435\u043d\u043e\u0432",
+            "birthday": "1955-10-17",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 160,
+        "fields": {
+            "first_name": "\u0421\u043e\u0441\u043d\u043e\u0432\u0441\u043a\u0438\u0439",
+            "middle_name": "\u0417\u043e\u0441\u0438\u043c\u043e\u0432\u0438\u0447",
+            "last_name": "\u0421\u043e\u0441\u043d\u043e\u0432\u0441\u043a\u0438\u0439",
+            "birthday": "1990-02-18",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 161,
+        "fields": {
+            "first_name": "\u041f\u0430\u043b\u0438\u0431\u0438\u043d",
+            "middle_name": "\u0410\u0432\u0440\u0435\u043b\u0438\u0435\u0432\u0438\u0447",
+            "last_name": "\u041f\u0430\u043b\u0438\u0431\u0438\u043d",
+            "birthday": "1978-03-14",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 162,
+        "fields": {
+            "first_name": "\u042d\u0440\u0434\u043c\u0430\u043d",
+            "middle_name": "\u0420\u0430\u0444\u0430\u0438\u043b\u043e\u0432\u0438\u0447",
+            "last_name": "\u042d\u0440\u0434\u043c\u0430\u043d",
+            "birthday": "1993-08-06",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 163,
+        "fields": {
+            "first_name": "\u0421\u043e\u0441\u043d\u043e\u0432\u0441\u043a\u0438\u0439",
+            "middle_name": "\u0410\u0432\u0432\u0430\u043a\u0443\u043c\u043e\u0432\u0438\u0447",
+            "last_name": "\u0421\u043e\u0441\u043d\u043e\u0432\u0441\u043a\u0438\u0439",
+            "birthday": "1992-02-18",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 164,
+        "fields": {
+            "first_name": "\u0410\u0440\u0442\u044e\u0445\u043e\u0432",
+            "middle_name": "\u0418\u0433\u043e\u0440\u0435\u0432\u0438\u0447",
+            "last_name": "\u0410\u0440\u0442\u044e\u0445\u043e\u0432",
+            "birthday": "1991-10-06",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 165,
+        "fields": {
+            "first_name": "\u041c\u0438\u0445\u0430\u043b\u043a\u043e\u0432",
+            "middle_name": "\u0410\u043c\u0432\u0440\u043e\u0441\u0438\u0435\u0432\u0438\u0447",
+            "last_name": "\u041c\u0438\u0445\u0430\u043b\u043a\u043e\u0432",
+            "birthday": "1951-05-26",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 166,
+        "fields": {
+            "first_name": "\u0418\u043f\u0430\u0442\u043e\u0432",
+            "middle_name": "\u0414\u043e\u0431\u0440\u044b\u043d\u0438\u0447",
+            "last_name": "\u0418\u043f\u0430\u0442\u043e\u0432",
+            "birthday": "1986-02-14",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 167,
+        "fields": {
+            "first_name": "\u0413\u0430\u0432\u0440\u0438\u043b\u043e\u0432",
+            "middle_name": "\u041b\u0435\u043e\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0413\u0430\u0432\u0440\u0438\u043b\u043e\u0432",
+            "birthday": "1962-05-10",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 168,
+        "fields": {
+            "first_name": "\u041f\u0430\u0448\u043a\u043e\u0432",
+            "middle_name": "\u0410\u043a\u0441\u0451\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u041f\u0430\u0448\u043a\u043e\u0432",
+            "birthday": "1980-05-27",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 169,
+        "fields": {
+            "first_name": "\u041b\u043e\u0441\u0435\u0432",
+            "middle_name": "\u041a\u0438\u0440\u0438\u0430\u043a\u043e\u0432\u0438\u0447",
+            "last_name": "\u041b\u043e\u0441\u0435\u0432",
+            "birthday": "1952-04-17",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 170,
+        "fields": {
+            "first_name": "\u0411\u043e\u0431\u043e\u0435\u0434\u043e\u0432",
+            "middle_name": "\u041c\u0430\u0432\u0440\u043e\u0432\u0438\u0447",
+            "last_name": "\u0411\u043e\u0431\u043e\u0435\u0434\u043e\u0432",
+            "birthday": "1973-03-21",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 171,
+        "fields": {
+            "first_name": "\u041f\u0435\u0440\u0441\u043a\u0438\u0439",
+            "middle_name": "\u041f\u0440\u043e\u043a\u043e\u043f\u044c\u0435\u0432\u0438\u0447",
+            "last_name": "\u041f\u0435\u0440\u0441\u043a\u0438\u0439",
+            "birthday": "1953-01-04",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 172,
+        "fields": {
+            "first_name": "\u0410\u043b\u0444\u0435\u0440\u043e\u0432",
+            "middle_name": "\u041c\u043e\u043a\u0435\u0435\u0432\u0438\u0447",
+            "last_name": "\u0410\u043b\u0444\u0435\u0440\u043e\u0432",
+            "birthday": "1974-06-20",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 173,
+        "fields": {
+            "first_name": "\u041d\u0435\u0434\u043e\u0431\u0440\u043e\u0432",
+            "middle_name": "\u0423\u0432\u0430\u0440\u043e\u0432\u0438\u0447",
+            "last_name": "\u041d\u0435\u0434\u043e\u0431\u0440\u043e\u0432",
+            "birthday": "1984-09-13",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 174,
+        "fields": {
+            "first_name": "\u0411\u043e\u043a",
+            "middle_name": "\u0410\u0433\u0435\u0435\u0432\u0438\u0447",
+            "last_name": "\u0411\u043e\u043a",
+            "birthday": "1983-09-02",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 175,
+        "fields": {
+            "first_name": "\u0411\u0440\u0435\u0434\u0438\u0445\u0438\u043d",
+            "middle_name": "\u0422\u0435\u043e\u0434\u043e\u0441\u044c\u0435\u0432\u0438\u0447",
+            "last_name": "\u0411\u0440\u0435\u0434\u0438\u0445\u0438\u043d",
+            "birthday": "1976-12-28",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 176,
+        "fields": {
+            "first_name": "\u0410\u043d\u0430\u043d\u044c\u0438\u043d",
+            "middle_name": "\u0424\u0438\u0440\u0441\u043e\u0432\u0438\u0447",
+            "last_name": "\u0410\u043d\u0430\u043d\u044c\u0438\u043d",
+            "birthday": "1995-09-03",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 177,
+        "fields": {
+            "first_name": "\u0427\u0438\u0436\u043e\u0432",
+            "middle_name": "\u041e\u0441\u0438\u043f\u043e\u0432\u0438\u0447",
+            "last_name": "\u0427\u0438\u0436\u043e\u0432",
+            "birthday": "1988-03-13",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 178,
+        "fields": {
+            "first_name": "\u0410\u0434\u0430\u043c\u043e\u0432\u0438\u0447",
+            "middle_name": "\u0415\u0440\u043c\u0438\u043b\u043e\u0432\u0438\u0447",
+            "last_name": "\u0410\u0434\u0430\u043c\u043e\u0432\u0438\u0447",
+            "birthday": "1975-01-11",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 179,
+        "fields": {
+            "first_name": "\u041a\u0430\u0440\u0442\u0430\u043c\u044b\u0448\u0435\u0432",
+            "middle_name": "\u042d\u043c\u0438\u043b\u044c\u0435\u0432\u0438\u0447",
+            "last_name": "\u041a\u0430\u0440\u0442\u0430\u043c\u044b\u0448\u0435\u0432",
+            "birthday": "1979-05-14",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 180,
+        "fields": {
+            "first_name": "\u0411\u0435\u043b\u0435\u0432\u0441\u043a\u0438\u0439",
+            "middle_name": "\u0412\u0443\u043a\u043e\u043b\u043e\u0432\u0438\u0447",
+            "last_name": "\u0411\u0435\u043b\u0435\u0432\u0441\u043a\u0438\u0439",
+            "birthday": "1968-06-14",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 181,
+        "fields": {
+            "first_name": "\u041c\u0443\u0441\u043e\u0440\u0433\u0441\u043a\u0438\u0439",
+            "middle_name": "\u0410\u043c\u0432\u0440\u043e\u0441\u0438\u0435\u0432\u0438\u0447",
+            "last_name": "\u041c\u0443\u0441\u043e\u0440\u0433\u0441\u043a\u0438\u0439",
+            "birthday": "1986-10-01",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 182,
+        "fields": {
+            "first_name": "\u0411\u0430\u0445\u0442\u0435\u044f\u0440\u043e\u0432",
+            "middle_name": "\u041f\u0440\u043e\u0432\u0438\u0447",
+            "last_name": "\u0411\u0430\u0445\u0442\u0435\u044f\u0440\u043e\u0432",
+            "birthday": "1967-06-05",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 183,
+        "fields": {
+            "first_name": "\u041c\u0430\u043c\u0430\u0435\u0432",
+            "middle_name": "\u042d\u0440\u0430\u0437\u043c\u043e\u0432\u0438\u0447",
+            "last_name": "\u041c\u0430\u043c\u0430\u0435\u0432",
+            "birthday": "1975-05-07",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 184,
+        "fields": {
+            "first_name": "\u0414\u043e\u043a\u0443\u043a\u0438\u043d",
+            "middle_name": "\u041f\u0430\u0442\u0440\u0438\u043a\u0438\u0435\u0432\u0438\u0447",
+            "last_name": "\u0414\u043e\u043a\u0443\u043a\u0438\u043d",
+            "birthday": "1958-11-08",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 185,
+        "fields": {
+            "first_name": "\u0415\u043c\u0435\u043b\u044c\u043a\u0438\u043d",
+            "middle_name": "\u0425\u0430\u0440\u043b\u0430\u043c\u043e\u0432\u0438\u0447",
+            "last_name": "\u0415\u043c\u0435\u043b\u044c\u043a\u0438\u043d",
+            "birthday": "1989-12-02",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 186,
+        "fields": {
+            "first_name": "\u041a\u0443\u043f\u0440\u0435\u044f\u043d\u043e\u0432",
+            "middle_name": "\u0413\u0440\u0438\u0433\u043e\u0440\u044c\u0435\u0432\u0438\u0447",
+            "last_name": "\u041a\u0443\u043f\u0440\u0435\u044f\u043d\u043e\u0432",
+            "birthday": "1983-06-03",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 187,
+        "fields": {
+            "first_name": "\u0411\u0435\u043b\u0435\u043d\u0438\u0445\u0438\u043d",
+            "middle_name": "\u0410\u0440\u043d\u043e\u043b\u044c\u0434\u043e\u0432\u0438\u0447",
+            "last_name": "\u0411\u0435\u043b\u0435\u043d\u0438\u0445\u0438\u043d",
+            "birthday": "1982-11-21",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 188,
+        "fields": {
+            "first_name": "\u041b\u043e\u0431\u0430\u0447\u0435\u0432\u0441\u043a\u0438\u0439",
+            "middle_name": "\u0413\u0430\u0432\u0440\u0438\u043b\u043e\u0432\u0438\u0447",
+            "last_name": "\u041b\u043e\u0431\u0430\u0447\u0435\u0432\u0441\u043a\u0438\u0439",
+            "birthday": "1960-08-04",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 189,
+        "fields": {
+            "first_name": "\u0410\u0444\u0440\u043e\u0441\u0438\u043c\u043e\u0432",
+            "middle_name": "\u0424\u0435\u0434\u0443\u043b\u043e\u0432\u0438\u0447",
+            "last_name": "\u0410\u0444\u0440\u043e\u0441\u0438\u043c\u043e\u0432",
+            "birthday": "1963-03-28",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 190,
+        "fields": {
+            "first_name": "\u041b\u044e\u0448\u0438\u043d",
+            "middle_name": "\u0410\u0432\u043a\u0441\u0435\u043d\u0442\u044c\u0435\u0432\u0438\u0447",
+            "last_name": "\u041b\u044e\u0448\u0438\u043d",
+            "birthday": "1992-09-18",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 191,
+        "fields": {
+            "first_name": "\u041a\u0438\u0440\u0435\u0435\u0432\u0441\u043a\u0438\u0439",
+            "middle_name": "\u041a\u0443\u043f\u0440\u0438\u044f\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u041a\u0438\u0440\u0435\u0435\u0432\u0441\u043a\u0438\u0439",
+            "birthday": "1999-01-18",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 192,
+        "fields": {
+            "first_name": "\u0422\u044e\u0442\u0447\u0435\u0432",
+            "middle_name": "\u0414\u0430\u043b\u043c\u0430\u0442\u043e\u0432\u0438\u0447",
+            "last_name": "\u0422\u044e\u0442\u0447\u0435\u0432",
+            "birthday": "1965-08-22",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 193,
+        "fields": {
+            "first_name": "\u0411\u043e\u0433\u0434\u0430\u043d\u043e\u0432",
+            "middle_name": "\u041d\u0435\u0441\u0442\u043e\u0440\u043e\u0432\u0438\u0447",
+            "last_name": "\u0411\u043e\u0433\u0434\u0430\u043d\u043e\u0432",
+            "birthday": "1968-07-19",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 194,
+        "fields": {
+            "first_name": "\u0410\u043d\u043e\u0441\u043e\u0432",
+            "middle_name": "\u0412\u0430\u043b\u0435\u0440\u0438\u0430\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0410\u043d\u043e\u0441\u043e\u0432",
+            "birthday": "1953-04-14",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 195,
+        "fields": {
+            "first_name": "\u041b\u0435\u043d\u0438\u0432\u0446\u0435\u0432",
+            "middle_name": "\u041c\u0430\u043d\u0443\u0438\u043b\u043e\u0432\u0438\u0447",
+            "last_name": "\u041b\u0435\u043d\u0438\u0432\u0446\u0435\u0432",
+            "birthday": "1967-06-17",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 196,
+        "fields": {
+            "first_name": "\u0413\u043e\u043b\u0443\u0431\u044c",
+            "middle_name": "\u041f\u0440\u043e\u043a\u043b\u043e\u0432\u0438\u0447",
+            "last_name": "\u0413\u043e\u043b\u0443\u0431\u044c",
+            "birthday": "1989-02-03",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 197,
+        "fields": {
+            "first_name": "\u0413\u0440\u0430\u043d\u043e\u0432\u0441\u043a\u0438\u0439",
+            "middle_name": "\u041d\u0438\u043b\u043e\u0432\u0438\u0447",
+            "last_name": "\u0413\u0440\u0430\u043d\u043e\u0432\u0441\u043a\u0438\u0439",
+            "birthday": "1976-08-14",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 198,
+        "fields": {
+            "first_name": "\u0411\u0435\u043b\u043a\u0438\u043d",
+            "middle_name": "\u0410\u0434\u0440\u0438\u0430\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0411\u0435\u043b\u043a\u0438\u043d",
+            "birthday": "1968-02-03",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 199,
+        "fields": {
+            "first_name": "\u0427\u0435\u0440\u043d\u0446\u043e\u0432",
+            "middle_name": "\u0412\u0438\u0441\u0441\u0430\u0440\u0438\u043e\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0427\u0435\u0440\u043d\u0446\u043e\u0432",
+            "birthday": "1995-05-10",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 200,
+        "fields": {
+            "first_name": "\u041b\u0443\u043d\u0438\u043d",
+            "middle_name": "\u041c\u0430\u0432\u0440\u043e\u0432\u0438\u0447",
+            "last_name": "\u041b\u0443\u043d\u0438\u043d",
+            "birthday": "1963-02-28",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 201,
+        "fields": {
+            "first_name": "\u0415\u043b\u044c\u043d\u0438\u0446\u043a\u0438\u0439",
+            "middle_name": "\u0412\u0430\u043b\u0435\u0440\u044c\u044f\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0415\u043b\u044c\u043d\u0438\u0446\u043a\u0438\u0439",
+            "birthday": "1977-03-19",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 202,
+        "fields": {
+            "first_name": "\u041a\u043e\u043b\u043e\u043a\u043e\u043b\u044c\u0446\u0435\u0432",
+            "middle_name": "\u041b\u0435\u043e\u043d\u0430\u0440\u0434\u043e\u0432\u0438\u0447",
+            "last_name": "\u041a\u043e\u043b\u043e\u043a\u043e\u043b\u044c\u0446\u0435\u0432",
+            "birthday": "1957-06-16",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 203,
+        "fields": {
+            "first_name": "\u0412\u0435\u043f\u0440\u0435\u0432",
+            "middle_name": "\u041c\u043e\u0438\u0441\u0435\u0435\u0432\u0438\u0447",
+            "last_name": "\u0412\u0435\u043f\u0440\u0435\u0432",
+            "birthday": "1983-11-20",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 204,
+        "fields": {
+            "first_name": "\u0422\u0438\u043d\u044c\u043a\u043e\u0432",
+            "middle_name": "\u0410\u043c\u043e\u0441\u043e\u0432\u0438\u0447",
+            "last_name": "\u0422\u0438\u043d\u044c\u043a\u043e\u0432",
+            "birthday": "2000-02-02",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 205,
+        "fields": {
+            "first_name": "\u0424\u0440\u0435\u043d\u043a\u0435\u043b\u044c",
+            "middle_name": "\u0414\u043e\u0431\u0440\u044b\u043d\u0438\u0447",
+            "last_name": "\u0424\u0440\u0435\u043d\u043a\u0435\u043b\u044c",
+            "birthday": "1958-03-16",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 206,
+        "fields": {
+            "first_name": "\u0412\u0440\u0435\u0432\u0441\u043a\u0438\u0439",
+            "middle_name": "\u041c\u0430\u0440\u0430\u0442\u043e\u0432\u0438\u0447",
+            "last_name": "\u0412\u0440\u0435\u0432\u0441\u043a\u0438\u0439",
+            "birthday": "1994-10-28",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 207,
+        "fields": {
+            "first_name": "\u0420\u043e\u0437\u0435\u043d\u0431\u0435\u0440\u0433",
+            "middle_name": "\u0421\u043e\u043a\u0440\u0430\u0442\u043e\u0432\u0438\u0447",
+            "last_name": "\u0420\u043e\u0437\u0435\u043d\u0431\u0435\u0440\u0433",
+            "birthday": "1992-02-09",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 208,
+        "fields": {
+            "first_name": "\u0411\u0443\u0445\u043e\u043d\u043e\u0432",
+            "middle_name": "\u0420\u043e\u0441\u0442\u0438\u0441\u043b\u0430\u0432\u043e\u0432\u0438\u0447",
+            "last_name": "\u0411\u0443\u0445\u043e\u043d\u043e\u0432",
+            "birthday": "2000-05-21",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 209,
+        "fields": {
+            "first_name": "\u0427\u0435\u0440\u0435\u043f\u043e\u0432",
+            "middle_name": "\u041c\u0430\u043d\u0443\u0439\u043b\u043e\u0432\u0438\u0447",
+            "last_name": "\u0427\u0435\u0440\u0435\u043f\u043e\u0432",
+            "birthday": "1981-09-15",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 210,
+        "fields": {
+            "first_name": "\u0428\u0435\u0441\u0442\u0430\u043a\u043e\u0432",
+            "middle_name": "\u0410\u043a\u0438\u043d\u0434\u0438\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0428\u0435\u0441\u0442\u0430\u043a\u043e\u0432",
+            "birthday": "1989-03-18",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 211,
+        "fields": {
+            "first_name": "\u041c\u043e\u0438\u0441\u0435\u0435\u0432",
+            "middle_name": "\u041c\u0438\u0445\u0430\u0439\u043b\u043e\u0432\u0438\u0447",
+            "last_name": "\u041c\u043e\u0438\u0441\u0435\u0435\u0432",
+            "birthday": "1953-06-07",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 212,
+        "fields": {
+            "first_name": "\u0428\u0435\u043d\u0448\u0438\u043d",
+            "middle_name": "\u0420\u044d\u043c\u043e\u0432\u0438\u0447",
+            "last_name": "\u0428\u0435\u043d\u0448\u0438\u043d",
+            "birthday": "1968-10-25",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 213,
+        "fields": {
+            "first_name": "\u041a\u0443\u0447\u0438\u043d\u0441\u043a\u0438\u0439",
+            "middle_name": "\u041f\u0430\u0442\u0440\u0438\u043a\u0438\u0435\u0432\u0438\u0447",
+            "last_name": "\u041a\u0443\u0447\u0438\u043d\u0441\u043a\u0438\u0439",
+            "birthday": "1971-08-28",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 214,
+        "fields": {
+            "first_name": "\u0422\u0430\u0443\u0431\u0435",
+            "middle_name": "\u0410\u0440\u0434\u0430\u043b\u0438\u043e\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0422\u0430\u0443\u0431\u0435",
+            "birthday": "1968-11-14",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 215,
+        "fields": {
+            "first_name": "\u041a\u0443\u0441\u0430\u043a\u043e\u0432",
+            "middle_name": "\u0424\u0435\u043e\u043a\u0442\u0438\u0441\u0442\u043e\u0432\u0438\u0447",
+            "last_name": "\u041a\u0443\u0441\u0430\u043a\u043e\u0432",
+            "birthday": "1994-04-11",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 216,
+        "fields": {
+            "first_name": "\u042d\u0440\u0434\u043c\u0430\u043d",
+            "middle_name": "\u0410\u0432\u0434\u0435\u0435\u0432\u0438\u0447",
+            "last_name": "\u042d\u0440\u0434\u043c\u0430\u043d",
+            "birthday": "1951-08-10",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 217,
+        "fields": {
+            "first_name": "\u041c\u0430\u0439\u043a\u043e\u0432",
+            "middle_name": "\u0425\u0430\u0440\u0438\u0442\u043e\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u041c\u0430\u0439\u043a\u043e\u0432",
+            "birthday": "1971-07-06",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 218,
+        "fields": {
+            "first_name": "\u041b\u043e\u0431\u0430\u0447\u0435\u0432\u0441\u043a\u0438\u0439",
+            "middle_name": "\u041f\u0430\u043d\u0444\u0438\u043b\u043e\u0432\u0438\u0447",
+            "last_name": "\u041b\u043e\u0431\u0430\u0447\u0435\u0432\u0441\u043a\u0438\u0439",
+            "birthday": "1974-01-19",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 219,
+        "fields": {
+            "first_name": "\u0411\u0440\u043e\u043d\u0435\u0432\u0441\u043a\u0438\u0439",
+            "middle_name": "\u041b\u044e\u0446\u0438\u0430\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0411\u0440\u043e\u043d\u0435\u0432\u0441\u043a\u0438\u0439",
+            "birthday": "1989-07-21",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 220,
+        "fields": {
+            "first_name": "\u041b\u0435\u0432\u0430\u043d\u0438\u0434\u043e\u0432",
+            "middle_name": "\u041c\u0438\u043b\u043e\u0441\u043b\u0430\u0432\u043e\u0432\u0438\u0447",
+            "last_name": "\u041b\u0435\u0432\u0430\u043d\u0438\u0434\u043e\u0432",
+            "birthday": "1998-01-28",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 221,
+        "fields": {
+            "first_name": "\u0413\u043e\u043b\u043e\u0432\u043d\u0438\u043d",
+            "middle_name": "\u0421\u0435\u0440\u0430\u043f\u0438\u043e\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0413\u043e\u043b\u043e\u0432\u043d\u0438\u043d",
+            "birthday": "1975-04-24",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 222,
+        "fields": {
+            "first_name": "\u0411\u0435\u043a\u0435\u0442\u043e\u0432",
+            "middle_name": "\u041b\u0430\u0432\u0440\u0435\u043d\u0442\u0438\u0435\u0432\u0438\u0447",
+            "last_name": "\u0411\u0435\u043a\u0435\u0442\u043e\u0432",
+            "birthday": "1979-07-16",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 223,
+        "fields": {
+            "first_name": "\u041f\u043e\u043b\u0442\u0435\u0432",
+            "middle_name": "\u0415\u0432\u0433\u0435\u043d\u044c\u0435\u0432\u0438\u0447",
+            "last_name": "\u041f\u043e\u043b\u0442\u0435\u0432",
+            "birthday": "1974-02-02",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 224,
+        "fields": {
+            "first_name": "\u0424\u0438\u0448\u0435\u0440",
+            "middle_name": "\u0412\u0430\u043b\u0435\u0440\u0438\u0430\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0424\u0438\u0448\u0435\u0440",
+            "birthday": "1952-11-28",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 225,
+        "fields": {
+            "first_name": "\u0411\u0430\u0448\u043a\u0438\u0440\u0435\u0432",
+            "middle_name": "\u0424\u0438\u043b\u0438\u043f\u043f\u043e\u0432\u0438\u0447",
+            "last_name": "\u0411\u0430\u0448\u043a\u0438\u0440\u0435\u0432",
+            "birthday": "1977-11-28",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 226,
+        "fields": {
+            "first_name": "\u0427\u0435\u0440\u0442\u043a\u043e\u0432",
+            "middle_name": "\u0421\u0438\u043b\u044c\u0432\u0435\u0441\u0442\u0440\u043e\u0432\u0438\u0447",
+            "last_name": "\u0427\u0435\u0440\u0442\u043a\u043e\u0432",
+            "birthday": "1983-07-07",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 227,
+        "fields": {
+            "first_name": "\u041d\u0435\u043c\u0438\u0440\u043e\u0432\u0441\u043a\u0438\u0439",
+            "middle_name": "\u0410\u0431\u0440\u043e\u0441\u0438\u043c\u043e\u0432\u0438\u0447",
+            "last_name": "\u041d\u0435\u043c\u0438\u0440\u043e\u0432\u0441\u043a\u0438\u0439",
+            "birthday": "1955-05-18",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 228,
+        "fields": {
+            "first_name": "\u041a\u0440\u0438\u0432\u0446\u043e\u0432",
+            "middle_name": "\u041f\u0430\u0442\u0430\u043f\u0438\u0435\u0432\u0438\u0447",
+            "last_name": "\u041a\u0440\u0438\u0432\u0446\u043e\u0432",
+            "birthday": "1976-01-23",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 229,
+        "fields": {
+            "first_name": "\u041b\u0443\u0442\u043a\u043e\u0432\u0441\u043a\u0438\u0439",
+            "middle_name": "\u041c\u0430\u0440\u044c\u044f\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u041b\u0443\u0442\u043a\u043e\u0432\u0441\u043a\u0438\u0439",
+            "birthday": "1988-08-23",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 230,
+        "fields": {
+            "first_name": "\u0421\u0443\u043c\u0430\u0440\u043e\u043a\u043e\u0432",
+            "middle_name": "\u0421\u0430\u0432\u0432\u0430\u0442\u044c\u0435\u0432\u0438\u0447",
+            "last_name": "\u0421\u0443\u043c\u0430\u0440\u043e\u043a\u043e\u0432",
+            "birthday": "1991-07-26",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 231,
+        "fields": {
+            "first_name": "\u0421\u043a\u0440\u044f\u0431\u0438\u043d",
+            "middle_name": "\u0424\u0438\u043b\u043e\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0421\u043a\u0440\u044f\u0431\u0438\u043d",
+            "birthday": "1961-05-11",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 232,
+        "fields": {
+            "first_name": "\u0413\u0440\u0438\u0434\u0447\u0438\u043d",
+            "middle_name": "\u041a\u0438\u0440\u044c\u044f\u043a\u043e\u0432\u0438\u0447",
+            "last_name": "\u0413\u0440\u0438\u0434\u0447\u0438\u043d",
+            "birthday": "1968-07-23",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 233,
+        "fields": {
+            "first_name": "\u041f\u0438\u043d\u0441\u043a\u0438\u0439",
+            "middle_name": "\u0410\u0431\u0440\u0430\u043c\u043e\u0432\u0438\u0447",
+            "last_name": "\u041f\u0438\u043d\u0441\u043a\u0438\u0439",
+            "birthday": "1998-07-15",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 234,
+        "fields": {
+            "first_name": "\u0421\u0430\u0432\u0435\u043b\u043e\u0432",
+            "middle_name": "\u041d\u0430\u0444\u0430\u043d\u0430\u0438\u043b\u043e\u0432\u0438\u0447",
+            "last_name": "\u0421\u0430\u0432\u0435\u043b\u043e\u0432",
+            "birthday": "1992-03-11",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 235,
+        "fields": {
+            "first_name": "\u041a\u043e\u043d\u043e\u0432\u0430\u043b\u043e\u0432",
+            "middle_name": "\u0415\u0432\u0441\u0442\u0438\u0433\u043d\u0435\u0435\u0432\u0438\u0447",
+            "last_name": "\u041a\u043e\u043d\u043e\u0432\u0430\u043b\u043e\u0432",
+            "birthday": "1952-08-03",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 236,
+        "fields": {
+            "first_name": "\u041c\u0430\u0435\u0432\u0441\u043a\u0438\u0439",
+            "middle_name": "\u0410\u0437\u0430\u0440\u044c\u0435\u0432\u0438\u0447",
+            "last_name": "\u041c\u0430\u0435\u0432\u0441\u043a\u0438\u0439",
+            "birthday": "1983-08-12",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 237,
+        "fields": {
+            "first_name": "\u0428\u0430\u043b\u0438\u043c\u043e\u0432",
+            "middle_name": "\u0413\u0443\u0440\u044c\u044f\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0428\u0430\u043b\u0438\u043c\u043e\u0432",
+            "birthday": "1993-08-09",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 238,
+        "fields": {
+            "first_name": "\u0411\u0435\u043b\u0435\u0446\u043a\u0438\u0439",
+            "middle_name": "\u0424\u0435\u043e\u0434\u043e\u0441\u0438\u0435\u0432\u0438\u0447",
+            "last_name": "\u0411\u0435\u043b\u0435\u0446\u043a\u0438\u0439",
+            "birthday": "1973-02-23",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 239,
+        "fields": {
+            "first_name": "\u0421\u043f\u0435\u0447\u0438\u043d\u0441\u043a\u0438\u0439",
+            "middle_name": "\u041f\u0440\u043e\u043a\u043b\u043e\u0432\u0438\u0447",
+            "last_name": "\u0421\u043f\u0435\u0447\u0438\u043d\u0441\u043a\u0438\u0439",
+            "birthday": "1980-11-11",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 240,
+        "fields": {
+            "first_name": "\u0427\u0435\u0440\u0432\u0438\u043d\u0441\u043a\u0438\u0439",
+            "middle_name": "\u041a\u043e\u043d\u0441\u0442\u0430\u043d\u0442\u0438\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0427\u0435\u0440\u0432\u0438\u043d\u0441\u043a\u0438\u0439",
+            "birthday": "1955-01-24",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 241,
+        "fields": {
+            "first_name": "\u041f\u0430\u0442\u0440\u0438\u043a\u0435\u0435\u0432",
+            "middle_name": "\u0421\u0435\u0432\u0430\u0441\u0442\u0438\u0430\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u041f\u0430\u0442\u0440\u0438\u043a\u0435\u0435\u0432",
+            "birthday": "1958-07-12",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 242,
+        "fields": {
+            "first_name": "\u0410\u0441\u0442\u0440\u0430\u0445\u0430\u043d\u0446\u0435\u0432",
+            "middle_name": "\u0412\u0443\u043a\u043e\u043b\u043e\u0432\u0438\u0447",
+            "last_name": "\u0410\u0441\u0442\u0440\u0430\u0445\u0430\u043d\u0446\u0435\u0432",
+            "birthday": "1950-08-20",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 243,
+        "fields": {
+            "first_name": "\u0413\u0432\u043e\u0437\u0434\u0435\u0432",
+            "middle_name": "\u041f\u0430\u043d\u0442\u0435\u043b\u0435\u0438\u043c\u043e\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0413\u0432\u043e\u0437\u0434\u0435\u0432",
+            "birthday": "1976-09-10",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 244,
+        "fields": {
+            "first_name": "\u041b\u0430\u0432\u0440\u043e\u0432",
+            "middle_name": "\u0410\u0431\u0440\u043e\u0441\u0438\u043c\u043e\u0432\u0438\u0447",
+            "last_name": "\u041b\u0430\u0432\u0440\u043e\u0432",
+            "birthday": "1988-10-06",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 245,
+        "fields": {
+            "first_name": "\u0428\u0435\u043f\u0435\u043b\u0435\u0432",
+            "middle_name": "\u041c\u043e\u0434\u0435\u0441\u0442\u043e\u0432\u0438\u0447",
+            "last_name": "\u0428\u0435\u043f\u0435\u043b\u0435\u0432",
+            "birthday": "1982-12-11",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 246,
+        "fields": {
+            "first_name": "\u0410\u043b\u0444\u0438\u043c\u043e\u0432",
+            "middle_name": "\u0422\u0435\u0440\u0435\u043d\u0442\u044c\u0435\u0432\u0438\u0447",
+            "last_name": "\u0410\u043b\u0444\u0438\u043c\u043e\u0432",
+            "birthday": "1961-09-02",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 247,
+        "fields": {
+            "first_name": "\u0411\u0430\u0445\u043c\u0435\u0442\u044c\u0435\u0432",
+            "middle_name": "\u0410\u043b\u0444\u0451\u0440\u043e\u0432\u0438\u0447",
+            "last_name": "\u0411\u0430\u0445\u043c\u0435\u0442\u044c\u0435\u0432",
+            "birthday": "1955-12-28",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 248,
+        "fields": {
+            "first_name": "\u041b\u044e\u0431\u0430\u0432\u0441\u043a\u0438\u0439",
+            "middle_name": "\u041b\u0435\u043e\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u041b\u044e\u0431\u0430\u0432\u0441\u043a\u0438\u0439",
+            "birthday": "1994-10-03",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 249,
+        "fields": {
+            "first_name": "\u041b\u0435\u0432\u043a\u043e\u0432\u0435\u0446",
+            "middle_name": "\u0422\u0438\u043c\u0443\u0440\u043e\u0432\u0438\u0447",
+            "last_name": "\u041b\u0435\u0432\u043a\u043e\u0432\u0435\u0446",
+            "birthday": "1954-03-11",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 250,
+        "fields": {
+            "first_name": "\u041e\u043b\u0441\u0443\u0444\u044c\u0435\u0432",
+            "middle_name": "\u0424\u0438\u043b\u0430\u0440\u0435\u0442\u043e\u0432\u0438\u0447",
+            "last_name": "\u041e\u043b\u0441\u0443\u0444\u044c\u0435\u0432",
+            "birthday": "1998-01-07",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 251,
+        "fields": {
+            "first_name": "\u041f\u0430\u043d\u0442\u0435\u043b\u0435\u0435\u0432",
+            "middle_name": "\u041d\u0430\u0440\u043a\u0438\u0441\u043e\u0432\u0438\u0447",
+            "last_name": "\u041f\u0430\u043d\u0442\u0435\u043b\u0435\u0435\u0432",
+            "birthday": "1989-04-23",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 252,
+        "fields": {
+            "first_name": "\u0424\u0435\u0434\u043e\u0442\u043e\u0432",
+            "middle_name": "\u0415\u0440\u043e\u0444\u0435\u0435\u0432\u0438\u0447",
+            "last_name": "\u0424\u0435\u0434\u043e\u0442\u043e\u0432",
+            "birthday": "1986-03-28",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 253,
+        "fields": {
+            "first_name": "\u0414\u043e\u043d\u0435\u0446",
+            "middle_name": "\u0415\u0433\u043e\u0440\u043e\u0432\u0438\u0447",
+            "last_name": "\u0414\u043e\u043d\u0435\u0446",
+            "birthday": "1966-08-04",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 254,
+        "fields": {
+            "first_name": "\u041a\u043e\u0441\u0442\u043e\u043c\u0430\u0440\u043e\u0432",
+            "middle_name": "\u0420\u0435\u043d\u0430\u0442\u043e\u0432\u0438\u0447",
+            "last_name": "\u041a\u043e\u0441\u0442\u043e\u043c\u0430\u0440\u043e\u0432",
+            "birthday": "1958-09-14",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 255,
+        "fields": {
+            "first_name": "\u041f\u0435\u0440\u0435\u043b\u0435\u0448\u0438\u043d",
+            "middle_name": "\u0424\u043e\u043a\u0438\u0447",
+            "last_name": "\u041f\u0435\u0440\u0435\u043b\u0435\u0448\u0438\u043d",
+            "birthday": "1959-06-03",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 256,
+        "fields": {
+            "first_name": "\u042f\u043d\u043e\u0432\u0441\u043a\u0438\u0439",
+            "middle_name": "\u041a\u043e\u0440\u043d\u0435\u0435\u0432\u0438\u0447",
+            "last_name": "\u042f\u043d\u043e\u0432\u0441\u043a\u0438\u0439",
+            "birthday": "2000-05-19",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 257,
+        "fields": {
+            "first_name": "\u0425\u0432\u043e\u0441\u0442\u043e\u0432",
+            "middle_name": "\u0424\u0440\u043e\u043b\u043e\u0432\u0438\u0447",
+            "last_name": "\u0425\u0432\u043e\u0441\u0442\u043e\u0432",
+            "birthday": "1983-12-12",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 258,
+        "fields": {
+            "first_name": "\u0417\u0432\u0435\u043d\u0438\u0433\u043e\u0440\u043e\u0434\u0441\u043a\u0438\u0439",
+            "middle_name": "\u041f\u0430\u043c\u0444\u0438\u043b\u043e\u0432\u0438\u0447",
+            "last_name": "\u0417\u0432\u0435\u043d\u0438\u0433\u043e\u0440\u043e\u0434\u0441\u043a\u0438\u0439",
+            "birthday": "1955-12-16",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 259,
+        "fields": {
+            "first_name": "\u0427\u0443\u043f\u0440\u0430\u0441\u043e\u0432",
+            "middle_name": "\u0421\u0430\u0432\u0451\u043b\u043e\u0432\u0438\u0447",
+            "last_name": "\u0427\u0443\u043f\u0440\u0430\u0441\u043e\u0432",
+            "birthday": "1991-03-08",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 260,
+        "fields": {
+            "first_name": "\u0427\u0435\u043b\u0438\u0449\u0435\u0432",
+            "middle_name": "\u0413\u043e\u0440\u0434\u0435\u0435\u0432\u0438\u0447",
+            "last_name": "\u0427\u0435\u043b\u0438\u0449\u0435\u0432",
+            "birthday": "1955-11-09",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 261,
+        "fields": {
+            "first_name": "\u0411\u0440\u0435\u0437\u043e\u0432\u0441\u043a\u0438\u0439",
+            "middle_name": "\u0410\u0432\u0442\u043e\u043d\u043e\u043c\u043e\u0432\u0438\u0447",
+            "last_name": "\u0411\u0440\u0435\u0437\u043e\u0432\u0441\u043a\u0438\u0439",
+            "birthday": "1980-07-21",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 262,
+        "fields": {
+            "first_name": "\u0429\u0435\u043f\u043e\u0442\u044c\u0435\u0432",
+            "middle_name": "\u041c\u0430\u0440\u0438\u0430\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0429\u0435\u043f\u043e\u0442\u044c\u0435\u0432",
+            "birthday": "2000-05-26",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 263,
+        "fields": {
+            "first_name": "\u0412\u043e\u0440\u043e\u043d\u0435\u0446",
+            "middle_name": "\u0421\u043e\u0444\u0440\u043e\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0412\u043e\u0440\u043e\u043d\u0435\u0446",
+            "birthday": "1981-11-04",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 264,
+        "fields": {
+            "first_name": "\u041a\u0430\u043b\u0438\u0442\u0435\u0435\u0432\u0441\u043a\u0438\u0439",
+            "middle_name": "\u041d\u0435\u0444\u0451\u0434\u043e\u0432\u0438\u0447",
+            "last_name": "\u041a\u0430\u043b\u0438\u0442\u0435\u0435\u0432\u0441\u043a\u0438\u0439",
+            "birthday": "1950-11-28",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 265,
+        "fields": {
+            "first_name": "\u0411\u0435\u0440\u0435\u0437\u043d\u0438\u043a\u043e\u0432",
+            "middle_name": "\u041b\u044e\u0446\u0438\u0435\u0432\u0438\u0447",
+            "last_name": "\u0411\u0435\u0440\u0435\u0437\u043d\u0438\u043a\u043e\u0432",
+            "birthday": "1976-06-16",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 266,
+        "fields": {
+            "first_name": "\u0421\u043f\u0438\u0446\u044b\u043d",
+            "middle_name": "\u0422\u0435\u043e\u0434\u043e\u0441\u044c\u0435\u0432\u0438\u0447",
+            "last_name": "\u0421\u043f\u0438\u0446\u044b\u043d",
+            "birthday": "1971-11-24",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 267,
+        "fields": {
+            "first_name": "\u041a\u0440\u0443\u043f\u0435\u043d\u0441\u043a\u0438\u0439",
+            "middle_name": "\u0413\u043e\u0440\u0434\u0435\u0435\u0432\u0438\u0447",
+            "last_name": "\u041a\u0440\u0443\u043f\u0435\u043d\u0441\u043a\u0438\u0439",
+            "birthday": "1979-04-18",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 268,
+        "fields": {
+            "first_name": "\u0412\u0430\u0441\u044c\u043a\u043e\u0432",
+            "middle_name": "\u0421\u0430\u043c\u0441\u043e\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0412\u0430\u0441\u044c\u043a\u043e\u0432",
+            "birthday": "1960-07-16",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 269,
+        "fields": {
+            "first_name": "\u0415\u0432\u0440\u0435\u0438\u043d\u043e\u0432",
+            "middle_name": "\u0413\u0435\u043e\u0440\u0433\u0438\u0435\u0432\u0438\u0447",
+            "last_name": "\u0415\u0432\u0440\u0435\u0438\u043d\u043e\u0432",
+            "birthday": "1950-07-07",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 270,
+        "fields": {
+            "first_name": "\u0411\u0430\u043b\u043a\u0430\u0448\u0438\u043d",
+            "middle_name": "\u042d\u0434\u043c\u0443\u043d\u0434\u043e\u0432\u0438\u0447",
+            "last_name": "\u0411\u0430\u043b\u043a\u0430\u0448\u0438\u043d",
+            "birthday": "1991-10-07",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 271,
+        "fields": {
+            "first_name": "\u041f\u0430\u0437\u0443\u0445\u0438\u043d",
+            "middle_name": "\u041a\u043e\u0440\u043d\u0435\u043b\u0438\u0435\u0432\u0438\u0447",
+            "last_name": "\u041f\u0430\u0437\u0443\u0445\u0438\u043d",
+            "birthday": "1968-06-03",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 272,
+        "fields": {
+            "first_name": "\u0413\u0440\u044f\u0437\u0435\u0432",
+            "middle_name": "\u0413\u0435\u0440\u043c\u0430\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0413\u0440\u044f\u0437\u0435\u0432",
+            "birthday": "1950-01-22",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 273,
+        "fields": {
+            "first_name": "\u0412\u0435\u043b\u0438\u0447\u043a\u043e",
+            "middle_name": "\u0414\u0430\u043d\u0438\u043b\u043e\u0432\u0438\u0447",
+            "last_name": "\u0412\u0435\u043b\u0438\u0447\u043a\u043e",
+            "birthday": "1986-01-20",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 274,
+        "fields": {
+            "first_name": "\u0412\u0430\u0440\u0441\u043e\u043d\u043e\u0444\u044c\u0435\u0432",
+            "middle_name": "\u0413\u0443\u0440\u044c\u0435\u0432\u0438\u0447",
+            "last_name": "\u0412\u0430\u0440\u0441\u043e\u043d\u043e\u0444\u044c\u0435\u0432",
+            "birthday": "1968-01-19",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 275,
+        "fields": {
+            "first_name": "\u041b\u0443\u0446\u043a\u0435\u0432\u0438\u0447",
+            "middle_name": "\u0418\u0437\u043e\u0442\u043e\u0432\u0438\u0447",
+            "last_name": "\u041b\u0443\u0446\u043a\u0435\u0432\u0438\u0447",
+            "birthday": "1998-12-18",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 276,
+        "fields": {
+            "first_name": "\u041a\u0430\u0440\u0433\u043e\u043b\u043e\u043c\u0441\u043a\u0438\u0439",
+            "middle_name": "\u0413\u0430\u0432\u0440\u0438\u043b\u043e\u0432\u0438\u0447",
+            "last_name": "\u041a\u0430\u0440\u0433\u043e\u043b\u043e\u043c\u0441\u043a\u0438\u0439",
+            "birthday": "1981-01-07",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 277,
+        "fields": {
+            "first_name": "\u0411\u043e\u0440\u0438\u0441\u0435\u043d\u043a\u043e",
+            "middle_name": "\u0410\u043d\u0430\u043d\u0438\u0435\u0432\u0438\u0447",
+            "last_name": "\u0411\u043e\u0440\u0438\u0441\u0435\u043d\u043a\u043e",
+            "birthday": "1953-06-14",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 278,
+        "fields": {
+            "first_name": "\u041d\u0435\u0431\u043e\u043b\u044c\u0441\u0438\u043d",
+            "middle_name": "\u0425\u0440\u0438\u0441\u0442\u043e\u0444\u043e\u0440\u043e\u0432\u0438\u0447",
+            "last_name": "\u041d\u0435\u0431\u043e\u043b\u044c\u0441\u0438\u043d",
+            "birthday": "1965-01-09",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 279,
+        "fields": {
+            "first_name": "\u041e\u0433\u043e\u043b\u0438\u043d",
+            "middle_name": "\u041c\u0430\u0440\u043a\u0435\u043b\u043e\u0432\u0438\u0447",
+            "last_name": "\u041e\u0433\u043e\u043b\u0438\u043d",
+            "birthday": "1966-09-28",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 280,
+        "fields": {
+            "first_name": "\u0417\u0430\u0432\u0430\u043b\u0438\u0448\u0438\u043d",
+            "middle_name": "\u0411\u0443\u0434\u0438\u043c\u0438\u0440\u043e\u0432\u0438\u0447",
+            "last_name": "\u0417\u0430\u0432\u0430\u043b\u0438\u0448\u0438\u043d",
+            "birthday": "1981-06-12",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 281,
+        "fields": {
+            "first_name": "\u0410\u043b\u0430\u0438\u0448\u0435\u0432",
+            "middle_name": "\u0421\u0430\u0432\u0432\u0438\u0447",
+            "last_name": "\u0410\u043b\u0430\u0438\u0448\u0435\u0432",
+            "birthday": "1998-02-02",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 282,
+        "fields": {
+            "first_name": "\u041b\u044b\u0437\u043b\u043e\u0432",
+            "middle_name": "\u0420\u0430\u0434\u0438\u0435\u0432\u0438\u0447",
+            "last_name": "\u041b\u044b\u0437\u043b\u043e\u0432",
+            "birthday": "1963-08-11",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 283,
+        "fields": {
+            "first_name": "\u0415\u0432\u0441\u044e\u043a\u043e\u0432",
+            "middle_name": "\u0412\u0443\u043a\u043e\u043b\u043e\u0432\u0438\u0447",
+            "last_name": "\u0415\u0432\u0441\u044e\u043a\u043e\u0432",
+            "birthday": "1997-06-20",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 284,
+        "fields": {
+            "first_name": "\u0412\u0435\u043f\u0440\u0435\u0432",
+            "middle_name": "\u0413\u043e\u0440\u0438\u0441\u043b\u0430\u0432\u043e\u0432\u0438\u0447",
+            "last_name": "\u0412\u0435\u043f\u0440\u0435\u0432",
+            "birthday": "1998-01-12",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 285,
+        "fields": {
+            "first_name": "\u0412\u043e\u043b\u043a\u043e\u043d\u0441\u043a\u0438\u0439",
+            "middle_name": "\u0413\u0435\u0440\u043c\u0430\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0412\u043e\u043b\u043a\u043e\u043d\u0441\u043a\u0438\u0439",
+            "birthday": "1984-10-17",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 286,
+        "fields": {
+            "first_name": "\u0411\u043e\u0440\u0448\u0435\u0432\u0430\u0442\u0438\u043d\u043e\u0432",
+            "middle_name": "\u0418\u043e\u0430\u043d\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0411\u043e\u0440\u0448\u0435\u0432\u0430\u0442\u0438\u043d\u043e\u0432",
+            "birthday": "1980-05-15",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 287,
+        "fields": {
+            "first_name": "\u0418\u043f\u0430\u0442\u044c\u0435\u0432",
+            "middle_name": "\u0415\u0432\u0442\u0438\u0445\u0438\u0435\u0432\u0438\u0447",
+            "last_name": "\u0418\u043f\u0430\u0442\u044c\u0435\u0432",
+            "birthday": "1996-11-10",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 288,
+        "fields": {
+            "first_name": "\u041a\u0438\u0440\u0438\u043b\u043e\u0432",
+            "middle_name": "\u041a\u043e\u043d\u0434\u0440\u0430\u0442\u044c\u0435\u0432\u0438\u0447",
+            "last_name": "\u041a\u0438\u0440\u0438\u043b\u043e\u0432",
+            "birthday": "1981-09-12",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 289,
+        "fields": {
+            "first_name": "\u0425\u0440\u0435\u043f\u0442\u043e\u0432\u0438\u0447",
+            "middle_name": "\u041c\u0430\u0440\u0442\u0438\u043c\u044c\u044f\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0425\u0440\u0435\u043f\u0442\u043e\u0432\u0438\u0447",
+            "birthday": "1980-04-24",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 290,
+        "fields": {
+            "first_name": "\u0411\u043e\u0440\u043e\u0434\u0438\u043d",
+            "middle_name": "\u0410\u043d\u0438\u0441\u0438\u043c\u043e\u0432\u0438\u0447",
+            "last_name": "\u0411\u043e\u0440\u043e\u0434\u0438\u043d",
+            "birthday": "2000-03-17",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 291,
+        "fields": {
+            "first_name": "\u0422\u0438\u043c\u0447\u0435\u043d\u043a\u043e",
+            "middle_name": "\u0410\u0440\u0435\u0444\u044c\u0435\u0432\u0438\u0447",
+            "last_name": "\u0422\u0438\u043c\u0447\u0435\u043d\u043a\u043e",
+            "birthday": "1973-04-22",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 292,
+        "fields": {
+            "first_name": "\u041a\u0430\u0440\u044f\u043a\u0438\u043d",
+            "middle_name": "\u041f\u0435\u0442\u0440\u043e\u0432\u0438\u0447",
+            "last_name": "\u041a\u0430\u0440\u044f\u043a\u0438\u043d",
+            "birthday": "1990-04-04",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 293,
+        "fields": {
+            "first_name": "\u041b\u0443\u0446\u043a\u0435\u0432\u0438\u0447",
+            "middle_name": "\u0413\u043b\u0435\u0431\u043e\u0432\u0438\u0447",
+            "last_name": "\u041b\u0443\u0446\u043a\u0435\u0432\u0438\u0447",
+            "birthday": "1992-04-18",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 294,
+        "fields": {
+            "first_name": "\u041c\u0435\u0442\u0430\u043b\u044c\u043d\u0438\u043a\u043e\u0432",
+            "middle_name": "\u0413\u0430\u0432\u0440\u0438\u0438\u043b\u043e\u0432\u0438\u0447",
+            "last_name": "\u041c\u0435\u0442\u0430\u043b\u044c\u043d\u0438\u043a\u043e\u0432",
+            "birthday": "1956-07-20",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 295,
+        "fields": {
+            "first_name": "\u041a\u043e\u0440\u0438\u0446\u043a\u0438\u0439",
+            "middle_name": "\u041d\u0438\u043b\u043e\u0432\u0438\u0447",
+            "last_name": "\u041a\u043e\u0440\u0438\u0446\u043a\u0438\u0439",
+            "birthday": "1958-04-03",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 296,
+        "fields": {
+            "first_name": "\u0429\u0435\u0440\u0431\u0430\u0447\u0451\u0432",
+            "middle_name": "\u0418\u0432\u0430\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0429\u0435\u0440\u0431\u0430\u0447\u0451\u0432",
+            "birthday": "1957-07-19",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 297,
+        "fields": {
+            "first_name": "\u0422\u0435\u043b\u044f\u0442\u0435\u0432\u0441\u043a\u0438\u0439",
+            "middle_name": "\u041c\u0430\u0440\u044c\u0435\u0432\u0438\u0447",
+            "last_name": "\u0422\u0435\u043b\u044f\u0442\u0435\u0432\u0441\u043a\u0438\u0439",
+            "birthday": "1995-06-27",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 298,
+        "fields": {
+            "first_name": "\u041c\u0435\u0440\u0442\u0432\u0430\u0433\u043e",
+            "middle_name": "\u0425\u0430\u0440\u0438\u0442\u043e\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u041c\u0435\u0440\u0442\u0432\u0430\u0433\u043e",
+            "birthday": "1957-08-28",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 299,
+        "fields": {
+            "first_name": "\u0412\u043e\u043b\u043e\u0434\u043a\u043e\u0432\u0441\u043a\u0438\u0439",
+            "middle_name": "\u0420\u043e\u0434\u0438\u043e\u043d\u043e\u0432\u0438\u0447",
+            "last_name": "\u0412\u043e\u043b\u043e\u0434\u043a\u043e\u0432\u0441\u043a\u0438\u0439",
+            "birthday": "1969-04-07",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 300,
+        "fields": {
+            "first_name": "\u0412\u0430\u0434\u043e\u0432\u0441\u043a\u0438\u0439",
+            "middle_name": "\u0412\u0430\u0440\u0444\u043e\u043b\u043e\u043c\u0435\u0435\u0432\u0438\u0447",
+            "last_name": "\u0412\u0430\u0434\u043e\u0432\u0441\u043a\u0438\u0439",
+            "birthday": "1987-03-10",
+            "email": "sema@sema.ru",
+            "phone": "+79998887766",
+            "begin_work": "2018-06-07",
+            "end_work": null,
+            "position": "\u0413\u043b\u0430\u0432\u0431\u0443\u0445",
+            "department": 6
+        }
+    }
+]
