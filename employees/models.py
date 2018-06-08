@@ -1,6 +1,4 @@
 from django.db import models
-from django.db.models import SET_NULL
-from django.urls import reverse
 from phone_field import PhoneField
 
 
@@ -30,11 +28,11 @@ class Employee(models.Model):
     begin_work = models.DateField(verbose_name="Начало работы")
     end_work = models.DateField(verbose_name="Окончание работы", blank=True, null=True, help_text="Введите дату увольнения сотрудника")
     position = models.CharField(verbose_name="Должность", max_length=200)
-    department = models.ForeignKey(Department, on_delete=SET_NULL, blank=True, null=True, verbose_name="Отдел")
+    department = models.ForeignKey(Department, on_delete=models.SET_NULL, blank=True, null=True, verbose_name="Отдел")
 
     class Meta:
         db_table = "employee"
-        ordering = ["-last_name", "-first_name", "-middle_name"]
+        ordering = ["last_name", "first_name", "middle_name"]
 
 #    def get_absolute_url(self):
 #        return reverse()

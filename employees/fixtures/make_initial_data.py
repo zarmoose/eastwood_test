@@ -6,7 +6,7 @@ import random
 json_obj = []
 pk = 0
 positions = ["Должность №1", "Должность №2", "Должность №3", "Должность №4", "Должность №5"]
-departments = {1: "Бухгалтерия", 2: "Маркетинг", 3: "Разработка", 4: "Производство", 5: "Логитика"}
+departments = {1: "Бухгалтерия", 2: "Маркетинг", 3: "Разработка", 4: "Производство", 5: "Логиcтика"}
 
 for key in departments.keys():
     json_item = {
@@ -34,7 +34,7 @@ for line in in_file:
         "model": "employees.employee",
         "pk": pk,
         "fields": {
-            "first_name": lmf[0],
+            "first_name": lmf[1],
             "middle_name": lmf[2],
             "last_name": lmf[0],
             "birthday": birthday,
@@ -49,6 +49,6 @@ for line in in_file:
     json_obj.append(json_item)
 in_file.close()
 
-out_file = open("__initial_data.json", "w")
+out_file = open("initial_data.json", "w")
 json.dump(json_obj, out_file, indent=4)
 out_file.close()

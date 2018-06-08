@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}
+    <title>База сотрудников компании</title>
+{% endblock %}
+
+{% block content %}
+    <h2>Сотрудники компании</h2>
+    {% if employees %}
+        <ul>
+            {% for employee in employees %}
+                <li><a href="{% url 'employee-detail' employee.pk %}">{{ employee.display_last_name }}</a></li>
+            {% endfor %}
+        </ul>
+        {% load bootstrap4 %}
+        {% bootstrap_pagination page_obj %}
+    {% else %}
+            <p>Нет сотрудников в базе</p>
+    {% endif %}
+{% endblock %}
+
