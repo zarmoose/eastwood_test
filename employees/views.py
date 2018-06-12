@@ -1,13 +1,35 @@
 from django.shortcuts import render
 from django.views import generic
-from employees import models
+from employees import models, forms
 
 class IndexView(generic.ListView):
-    model = models.Employee
+    #model = models.Employee
     context_object_name = 'employees'
-#    queryset = models.Employee.objects.order_by('last_name', 'first_name', 'middle_name')
     template_name = 'employees/index.html'
-    paginate_by = 20
+    paginate_by = 15
+
+    def get_context_data(self, **kwargs):
+        init = {}
+        context = super(IndexView, self).get_context_data(**kwargs)
+        department = self.request.GET.get('department')
+        working = self.request.GET.get('working')
+        if department:
+            init['department'] = department
+        if working:
+            init['working'] = True
+        filter_form = forms.FilterForm(initial=init)
+        context['filter_form'] = filter_form
+        return context
+
+    def get_queryset(self):
+        queryset = models.Employee.objects.all()
+        department = self.request.GET.get('department')
+        working = self.request.GET.get('working')
+        if department:
+            queryset = queryset.filter(department=department)
+        if working:
+            queryset = queryset.filter(end_work=None)
+        return queryset
 
 
 class EmployeeDetail(generic.DetailView):

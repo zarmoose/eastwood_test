@@ -9,8 +9,8 @@ class Department(models.Model):
     name = models.CharField(verbose_name="Название отдела", max_length=200)
 
     class Meta:
-        db_table = "department"
-        ordering = ["-name"]
+        db_table = 'department'
+        ordering = ['name']
 
     def __str__(self):
         return self.name
