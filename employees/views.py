@@ -1,14 +1,13 @@
 from django.views import generic
-from employees import models, forms
-
+from employees import models, forms, glossary
+from django.core.paginator import InvalidPage
 
 class IndexView(generic.ListView):
-    # model = models.Employee
     context_object_name = 'employees'
     template_name = 'employees/index.html'
     paginate_by = 15
 
-    def get_context_data(self, **kwargs):
+    def get_context_data(self, *, object_list=None, **kwargs):
         init = {}
         context = super(IndexView, self).get_context_data(**kwargs)
         department = self.request.GET.get('department')
@@ -38,10 +37,17 @@ class EmployeeDetail(generic.DetailView):
     template_name = 'employees/employee_detail.html'
 
 
-class AlphabetView(generic.ListView):
+class GlossaryView(generic.ListView):
     model = models.Employee
     context_object_name = 'employees'
-    template_name = 'employees/alphabet.html'
+    template_name = 'employees/glossary.html'
     paginate_by = 15
 
+    def __init__(self):
+        super(GlossaryView, self).__init__()
+        self.gloss = glossary.AlphabetGlossary(models.Employee.objects.all())
 
+    def get_context_data(self, *, object_list=None, **kwargs):
+        context = super(GlossaryView, self).get_context_data(**kwargs)
+        context['group'] = self.gloss.group(1)
+        return context

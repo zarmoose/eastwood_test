@@ -6,10 +6,11 @@
 
 {% block content %}
     <h2>Сотрудники компании</h2>
-    <form action="" method="get">
-        {{ filter_form }}
-        <input type="submit" value="Показать" />
-    </form>
+    {% for g in group.glossary.groups %}
+        <form name="glossary" method="get" action="{% url 'alphabet' %}?{{ group.number }}">
+            <input type="submit" value="{{ group.glossary.group }}">
+        </form>
+    {% endfor %}
     {% if employees %}
         <!-- Таблица сотрудников -->
         <table id="employees">

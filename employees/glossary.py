@@ -57,13 +57,13 @@ class AlphabetGlossary(object):
             self.groups.append(current_group)
 
     def group(self, num):
-        """Возвращает список объектов указанной группы"""
+        """Возвращает метку группы с указанным номером"""
         if len(self.groups) == 0:
             return None
         elif num > 0 and num <= len(self.groups):
             return self.groups[num - 1]
         else:
-            raise InvalidPage
+            raise InvalidPage   # заменить на другое исключение
 
     @property
     def num_groups(self):
