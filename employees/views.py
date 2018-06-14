@@ -14,8 +14,10 @@ class IndexView(generic.ListView):
         working = self.request.GET.get('working')
         if department:
             init['department'] = department
+            context['department'] = department
         if working:
             init['working'] = True
+            context['working'] = working
         filter_form = forms.FilterForm(initial=init)
         context['filter_form'] = filter_form
         return context
