@@ -5,7 +5,7 @@ from django.core.paginator import InvalidPage
 class IndexView(generic.ListView):
     context_object_name = 'employees'
     template_name = 'employees/index.html'
-    paginate_by = 15
+    paginate_by = 10
 
     def get_context_data(self, *, object_list=None, **kwargs):
         init = {}
@@ -38,16 +38,48 @@ class EmployeeDetail(generic.DetailView):
 
 
 class GlossaryView(generic.ListView):
-    model = models.Employee
+    #model = models.Employee
     context_object_name = 'employees'
     template_name = 'employees/glossary.html'
-    paginate_by = 15
+    paginate_by = 10
 
     def __init__(self):
         super(GlossaryView, self).__init__()
-        self.gloss = glossary.AlphabetGlossary(models.Employee.objects.all())
+        self.glossary = glossary.AlphabetGlossary(models.Employee.objects.all())
 
     def get_context_data(self, *, object_list=None, **kwargs):
         context = super(GlossaryView, self).get_context_data(**kwargs)
-        context['group'] = self.gloss.group(1)
+
+        try:
+            group = int(self.request.GET.get('group'))
+        except TypeError:
+            pass
+            group = 1
+
+        try:
+            context['group'] = self.glossary.group(group)
+        except InvalidPage:
+            if group == 0:
+                group = 1
+            else:
+                group = 7
+            context['group'] = self.glossary.group(group)
+
         return context
+
+    def get_queryset(self):
+        try:
+            group = int(self.request.GET.get('group'))
+        except TypeError:
+            group = 1
+
+        try:
+            queryset = self.glossary.group(group).object_list
+        except InvalidPage:
+            if group == 0:
+                group = 1
+            else:
+                group = 7
+            queryset = self.glossary.group(group).object_list
+
+        return queryset

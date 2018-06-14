@@ -1,31 +1,39 @@
 {% extends "base.html" %}
 
+{% load extras %}
+
 {% block title %}
-    <title>База сотрудников компании</title>
+    <title>{% get_attribute 'APP_NAME' %} | Главная</title>
 {% endblock %}
 
 {% block content %}
-    <h2>Сотрудники компании</h2>
     <form action="" method="get">
-        {{ filter_form }}
-        <input type="submit" value="Показать" />
+        {% load bootstrap4 %}
+        <table>
+            <thead>
+                <td>
+                    <tr>{% bootstrap_form filter_form %}</tr>
+                    <tr>{% bootstrap_button "Показать" button_type="submit" button_class="btn-primary" %}</tr>
+                </td>
+            </thead>
+        </table>
     </form>
     {% if employees %}
         <!-- Таблица сотрудников -->
-        <table id="employees">
+        <table class="table table-hover">
             <thead>
                 <tr>
-                    <th>Ф.И.О.</th>
+                    <th>ФИО</th>
                     <th>Отдел</th>
-                    <th>Работает/Уволен</th>
+                    <th>Дата увольнения</th>
                 </tr>
             </thead>
             <tbody>
                 {% for employee in employees %}
                     <tr>
-                        <td><a href="{% url 'employee-detail' employee.pk %}">{{ employee.display_last_name }}</a></td>
+                        <th scope="row"><a href="{% url 'employee-detail' employee.pk %}">{{ employee.display_last_name }}</a></th>
                         <td>{{ employee.department }}</td>
-                        <td>{{ employee.end_work }}</td>
+                        <td>{{ employee.end_work|date:"d.m.Y"|default:"работает" }}</td>
                     </tr>
                 {% endfor %}
             </tbody>

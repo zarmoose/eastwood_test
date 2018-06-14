@@ -4,7 +4,7 @@ from . import models
 
 class FilterForm(forms.Form):
     department = forms.ModelChoiceField(
-        label='Отдел',
+        label='Выберите отдел',
         queryset=models.Department.objects.all(),
         empty_label='Все',
         required=False

@@ -1,16 +1,18 @@
 {% extends "base.html" %}
 
+{% load extras %}
+
 {% block title %}
-    <title>{{ employee.display_last_name }}</title>
+    <title>{% get_attribute 'APP_NAME' %} | {{ employee.display_last_name }}</title>
 {% endblock %}
 
 {% block content %}
-    <h2>{{ employee.display_last_name }}</h2>
-    <p><strong>Дата рождения:</strong> {{ employee.birthday }}</p>
+    <h1 class="display-4">{{ employee.display_last_name }}</h1>
+    <p><strong>Дата рождения:</strong> {{ employee.birthday|date:"d.m.Y" }}</p>
     <p><strong>E-mail:</strong> {{ employee.email }}</p>
     <p><strong>Телефон:</strong> {{ employee.phone }}</p>
-    <p><strong>Начало работы:</strong> {{ employee.begin_work }}</p>
-    <p><strong>Окончание работы:</strong> {{ employee.end_work }}</p>
+    <p><strong>Начало работы:</strong> {{ employee.begin_work|date:"d.m.Y" }}</p>
+    <p><strong>Окончание работы:</strong> {{ employee.end_work|date:"d.m.Y" }}</p>
     <p><strong>Должность:</strong> {{ employee.position }}</p>
     <p><strong>Отдел:</strong> {{ employee.department }}</p>
 {% endblock %}
