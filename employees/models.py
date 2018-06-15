@@ -1,4 +1,5 @@
 from django.db import models
+from django.urls import reverse
 from phone_field import PhoneField
 
 
@@ -34,8 +35,8 @@ class Employee(models.Model):
         db_table = "employee"
         ordering = ["last_name", "first_name", "middle_name"]
 
-#    def get_absolute_url(self):
-#        return reverse()
+    def get_absolute_url(self):
+        return reverse('employee-detail', args=[str(self.id)])
 
     def display_last_name(self):
         return '{0} {1} {2}'.format(self.last_name, self.first_name, self.middle_name)
