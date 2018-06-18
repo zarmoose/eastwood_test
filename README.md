@@ -24,24 +24,24 @@
 Для развёртывания программы необходим выделенный сервер под управлением ОС Ubuntu 18.04 LTS.
 
 1. На сервере установить следующие пакеты:
-- python3-dev
-- python3-setuptools
-- libpq-dev
-- postgresql
-- postgresql-contrib
-- nginx
-- python3-pip
-- virtualenv
-- supervisor
-- git
+- *python3-dev*
+- *python3-setuptools*
+- *libpq-dev*
+- *postgresql*
+- *postgresql-contrib*
+- *nginx*
+- *python3-pip*
+- *virtualenv*
+- *supervisor*
+- *git*
 
 2. Создать виртальное окружение для данного проекта.
 В виртуальном окружении установить пакеты:
-- django
-- psycopg2-binary
-- django-bootstrap4
-- django-phone-field
-- gunicorn 
+- *django*
+- *psycopg2-binary*
+- *django-bootstrap4*
+- *django-phone-field*
+- *gunicorn* 
 
 3. С помощью git получить исходные дексты проекта с GitHub.
 
