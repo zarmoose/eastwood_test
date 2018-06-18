@@ -44,7 +44,7 @@ class GlossaryView(generic.ListView):
     # model = models.Employee
     context_object_name = 'employees'
     template_name = 'employees/glossary.html'
-    paginate_by = 10
+    paginate_by = 15
 
     def __init__(self):
         super(GlossaryView, self).__init__()
