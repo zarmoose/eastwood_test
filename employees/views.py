@@ -2,10 +2,11 @@ from django.views import generic
 from employees import models, forms, glossary
 from django.core.paginator import InvalidPage
 
+
 class IndexView(generic.ListView):
     context_object_name = 'employees'
     template_name = 'employees/index.html'
-    paginate_by = 10
+    paginate_by = 15
 
     def get_context_data(self, *, object_list=None, **kwargs):
         init = {}
@@ -33,14 +34,14 @@ class IndexView(generic.ListView):
         return queryset
 
 
-class EmployeeDetail(generic.DetailView):
+class EmployeeDetailView(generic.DetailView):
     model = models.Employee
     context_object_name = 'employee'
     template_name = 'employees/employee_detail.html'
 
 
 class GlossaryView(generic.ListView):
-    #model = models.Employee
+    # model = models.Employee
     context_object_name = 'employees'
     template_name = 'employees/glossary.html'
     paginate_by = 10
